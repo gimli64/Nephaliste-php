@@ -1,0 +1,12 @@
+================== INSTALLATION =======================
+
+On your machine, you must install php5-common libapache2-mod-php5 php5-cli and php5-mcrypt
+
+Copy nephaliste.conf to /etc/apache2/sites-enabled
+Copy httpd.conf to /etc/apache2
+Copy all nephaliste files to /var/www
+
+rewrite mod must be enabled in apache : sudo a2enmode rewrite
+Restart apache2
+
+Everything should work (maybe)

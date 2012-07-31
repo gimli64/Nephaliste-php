@@ -1,0 +1,89 @@
+<?php
+class Mentions extends VueCacheable {
+	
+	protected static $cache = '
+<div id="tache-1">
+
+<h1>Le Néphaliste</h1>
+<!--
+<blockquote>
+	<cite class="fr">Awesome!!1!</cite> (The Internets, 2010)<br/>
+	<cite class="fr">Best site of the year</cite> (Bruno Cauet, <em>in</em> self-interview, 2010)<br/>
+	<cite class="fr">J\'ai faim !</cite> (Jocelyn Caulet, <em>in</em> Défoncé n°32 — mai 2010)<br/>
+	<cite class="fr">C\'est bon, je fermerai.</cite> (François Savary, 2009-2010)<br/>
+</blockquote>
+-->
+
+
+
+<p><a href="http://fr.wiktionary.org/wiki/néphaliste">« Le Néphaliste »</a> est une application web programmée par <a href="mailto:brunocauet@gmail.com">Bruno Cauet</a> et <a href="mailto:jocaulet@hotmail.com">Jocelyn Caulet</a> pour <a href="http://coo.pe">la Coopé</a> de Supélec.<br />
+Son utilisation est soumise à la licence <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/fr/">CC-by-nc-sa</a>.
+Le code source est disponible sur demande.</p>
+
+<h1 style="margin-top: 3em;">Mode d\'emploi</h1>
+
+<dl id="mentions">
+	<dt>Auto-complétion</dt>
+	<dd>Lorsqu\'il faut préciser un compte d\'utilisateur, il n\'y a pas à le chercher dans une (très longue) liste déroulante : taper, dans le champ texte, au moins trois caractères de son prénom, surnom ou nom suffit à rendre une pseudo-liste déroulante offrant différentes propositions.</dd>
+	
+	<dt>Interface pour attardés mentaux</dt>
+	<dd>Un Coopéman goûtant la bière qu\'il sert, il arrive, en fin de soirée, que celui-ci accumule les grammes <del>de sang dans l\'alcool</del> <ins>d\'alcool dans le sang</ins>. Pour prévenir les déboires conséquents à son état (« bin, je dois cliquer où déjà ? »), les menus sont en <strong>gras</strong> et en <span style="color: red;">c</span><span style="color: green;">o</span><span style="color: yellow;">u</span><span style="color: purple;">l</span><span style="color: teal;">e</span><span style="color: blue;">u</span><span style="color: magenta;">r</span>.</dd>
+	<dd>De plus, les principales fonctionnalités sont accessibles sur une seule page, en deux clics. Le syndrome de j\'ai-la-femme-de-débiter devrait donc disparaître.</dd>
+	
+	<dt>Débit</dt>
+	<dd>Il y a vraiment besoin d\'expliquer comment ça fonctionne ?</dd>
+	
+	<dt>Crédit</dt>
+	<dd>Même remarque.</dd>
+	<dd>Ah si, quand même : on peut créditer d\'un montant négatif. Ca servira peut-être un jour.</dd>
+	
+	<dt>Recherche de compte</dt>
+	<dd>Permet d\'avoir des informations sur un compte : derniers dépôts d\'argent, derniers débit, solde, etc. Les vingt dernières transactions sont marquées dans l\'historiques, mais elles sont en fait TOUTES présentes dans la base de données, si besoin.</dd>
+	<dd>Donne également accès à la liste de tous les comptes. Remarquez le superbe dégradé sur les soldes (faudrait faire la même avec les cautions !). En cliquant sur la roue avec un crayon (????), on peut immédiatement modifier un compte. Il faut ensuite cliquer sur l\'icône de validation pour que les modifications soient prises en compte.</dd>
+	
+	<dt>Création de compte</dt>
+	<dd>A la suite du menu précédent se trouve celui, violet, de création/modification de compte. Il n\'y a pas grand-chose à dire.</dd>
+	<dd>La caution se fait sous forme d\'un chèque de 25 euros. Sans elle, un compte ne peut pas aller dans le négatif. Avec, on peut descendre à -25 euros. Attention ! Être dans le négatif trop longtemps entraîne des mails de pourrissage puis l\'encaissement du chèque.</dd>
+	
+	<dt>Gestion</dt>
+	<dd>Passons donc au turquoise (han cyan oui je sais, c\'est MOI qui ai fait le site) : La première partie s\'occupe de ce que la <acronym title="awesum">Coopé</acronym> vend : les recettes (Pour citer <acronym title="« prince de la nuit et des angoisses »">Lou Reed</acronym>, <cite class="us">Take a walk on the wild side</cite>). Une recette possède un nom, un prix. Simple. Le second lien permet de modifier les recettes précédentes – en particulier leur visibilité : si un produit n\'est plus en vente (rupture de stock, ou vendu lors d\'une soirée particulière), le cacher suffit jusqu\'à ce que la Coopé le propose à nouveau.</dd>
+	<dd>Attaquons-nous aux autres liens : vous trouvez ensuite un « Dernières consommations ». Un clic et vous est présentée la liste des 30 dernières commandes, avec possibilité de suppression en cas d\'erreur (<strong>OMG</strong>, <em>so</em> badass).</dd>
+	<dd>Vous trouverez également un lien vers cette page, mais si vous y êtes déjà, donc je pense que vous vous êtes débrouillé seul. Toutes mes félicitations.</dd>
+	<dd>Il s\'y trouve également le lien vers l\'interface d\'administration, qui permet différents réglages concernant l\'application. La description suit.</dd>
+	<dd>Enfin, un lien mène à la version minimaliste du site, destinée aux smartphones. Pour la quitter, il suffit de cliquer sur « Écran principal ».</dd>
+	
+	
+	
+	
+	<dt>Administration</dt>
+	<dd>Vous pouvez régler la promotion en cours à Supélec. Elle modifie les dates accessibles pour la création de compte.</dd>
+	<dd>Le trez peut déclarer les dépôts auprès de la banque.</dd>
+	<dd>Il y a un lien vers la page de gestion de clôture de comptes. Cette fonctionnalité est décrite juste après.</dd>
+	<dd>On peut régénérer le cache des pages HTML (et comme me le disait Pete l\'autre jour, <cite class="uk">Such an underground feature is really awesome, I <strong>have</strong> to put it in my next <del>album</del> <ins>piece of Art</ins></cite>). Vous n\'avez <em>normalement</em> pas à y toucher.</dd>
+	<dd>La clôture des comptes permet de purger la liste des comptes et les propositions d\'auto-complétion. Elle est cependant normalement rarement utilisée : à chaque nouvelle année à peu près... (et quand un dinosaure revient).</dd>
+	<dd>Un premier réglage – le principal – permet de régler le nombre d\'années à laisser ouvertes. Cela influe sur le choix de la promo à la création, conjointement avec la promotion en cours (page d\'administration).</dd>
+	<dd>Il est possible de choisir de laisser les comptes en négatif ouverts ou de les fermer, si tout espoir de remboursement a disparu.</dd>
+	<dd>De plus, on peut choisir de laisser le compte d\'une certaine personne ouvert (ex : redoublant encore là alors que sa promo est partie, mec qui doit trop d\'argent à la Coopé, etc.).</dd>
+	
+	<dt>Les statistiques</dt>
+	<dd>Tant de fonctionnalités ! Dans une seule page ! On n\'y croyait pas… Enfin, les stats. Demandeuses en ressources, elles sont mises à jour toutes les <acronym title="24h">vingt-quatre heures</acronym>.</dd>
+	<!--<dd><strong>Attention !</strong> Les comptes affichés représentent l\'équilibre financier, et pas l\'équilibre comptable. Ils ne remplacent donc pas Maze.</dd>-->
+
+
+	<dt>Autres</dt>
+	<dd>Un superbe bouton « retour à l\'accueil » si vous êtes perdu, pour revenir à l\'accueil en toute simplicité, et y attendre maman. Je crois que je vais le breveter et le vendre aux supermarchés.</dd>
+	<dd>Les mec qui a fait cet outil cherche une copine.</dd>
+	<dd>Le truc n\'est pas fini. Merci de chercher les bugs et d\'envoyer une description précise de comment vous avez fait.</dd>
+	<dd>N\'hésitez pas à débiter des bières supplémentaires aux gens que vous n\'aimez pas, c\'est bon pour la Coopé.</dd>
+	<dd>Si un pauvre veut consommer, bin il peut pas.</dd>
+	<dd><cite class="fr">Mais mais mais, pourquoi “Le Néphaliste” ?</cite> cf. lien en haut de la page.</dd>
+	<dd>Vous aurez peut-être remarqué que les guillements pour entourer les citations de Pete Doherty et de Lou Reed sont différents. Normal, l\'un est Anglais, donc guillements anglais ; l\'autre est américain, donc guillements américains.</dd>
+	<dd>Oui, à un moment le style d\'écriture change pas mal. J\'ai fait la première partie un jour, la seconde un autre ; et je n\'avais pas la même humeur.</dd>
+</dl>
+</div>
+';
+	public function fraiche () {
+		return self::$cache;
+	}
+}
+?>

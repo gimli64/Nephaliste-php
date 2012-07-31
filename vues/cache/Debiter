@@ -1,0 +1,306 @@
+
+				<input type="hidden" name="tache" value="Debiter" />
+				<table>
+					<caption>Consommation :</caption>
+
+					<tbody>
+
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="191" id="c191" /></td>
+					<td><label for="c191"> 4 Shots (4 euros)</label></td>
+					<td><input type="text" class="court" name="nb191" value="1" /></td>
+					<td>(4.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="201" id="c201" /></td>
+					<td><label for="c201"> Barbeuc (2 sandwiches)</label></td>
+					<td><input type="text" class="court" name="nb201" value="1" /></td>
+					<td>(1.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="198" id="c198" /></td>
+					<td><label for="c198"> Cafe</label></td>
+					<td><input type="text" class="court" name="nb198" value="1" /></td>
+					<td>(0.30 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="9" id="c9" /></td>
+					<td><label for="c9"> Carlsberg</label></td>
+					<td><input type="text" class="court" name="nb9" value="1" /></td>
+					<td>(1.50 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="102" id="c102" /></td>
+					<td><label for="c102"> Carolus</label></td>
+					<td><input type="text" class="court" name="nb102" value="1" /></td>
+					<td>(2.50 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="37" id="c37" /></td>
+					<td><label for="c37"> Chimay</label></td>
+					<td><input type="text" class="court" name="nb37" value="1" /></td>
+					<td>(2.50 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="60" id="c60" /></td>
+					<td><label for="c60"> Chti</label></td>
+					<td><input type="text" class="court" name="nb60" value="1" /></td>
+					<td>(1.50 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="74" id="c74" /></td>
+					<td><label for="c74"> Corona</label></td>
+					<td><input type="text" class="court" name="nb74" value="1" /></td>
+					<td>(2.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="197" id="c197" /></td>
+					<td><label for="c197"> Croissant pain choco</label></td>
+					<td><input type="text" class="court" name="nb197" value="1" /></td>
+					<td>(0.50 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="136" id="c136" /></td>
+					<td><label for="c136"> Demi de Grim</label></td>
+					<td><input type="text" class="court" name="nb136" value="1" /></td>
+					<td>(1.70 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="1" id="c1" /></td>
+					<td><label for="c1"> Demi de Kro</label></td>
+					<td><input type="text" class="court" name="nb1" value="1" /></td>
+					<td>(1.20 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="87" id="c87" /></td>
+					<td><label for="c87"> Despe (33cl)</label></td>
+					<td><input type="text" class="court" name="nb87" value="1" /></td>
+					<td>(1.70 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="188" id="c188" /></td>
+					<td><label for="c188"> Despe Red</label></td>
+					<td><input type="text" class="court" name="nb188" value="1" /></td>
+					<td>(2.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="15" id="c15" /></td>
+					<td><label for="c15"> DOUUUUUUZE</label></td>
+					<td><input type="text" class="court" name="nb15" value="1" /></td>
+					<td>(12.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="21" id="c21" /></td>
+					<td><label for="c21"> Duvel</label></td>
+					<td><input type="text" class="court" name="nb21" value="1" /></td>
+					<td>(2.50 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="90" id="c90" /></td>
+					<td><label for="c90"> Faro Lindsmans</label></td>
+					<td><input type="text" class="court" name="nb90" value="1" /></td>
+					<td>(3.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="91" id="c91" /></td>
+					<td><label for="c91"> Framboise foudroyante</label></td>
+					<td><input type="text" class="court" name="nb91" value="1" /></td>
+					<td>(4.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="162" id="c162" /></td>
+					<td><label for="c162"> Grain dorge</label></td>
+					<td><input type="text" class="court" name="nb162" value="1" /></td>
+					<td>(2.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="77" id="c77" /></td>
+					<td><label for="c77"> Grim bouteille (25cl)</label></td>
+					<td><input type="text" class="court" name="nb77" value="1" /></td>
+					<td>(1.30 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="85" id="c85" /></td>
+					<td><label for="c85"> Guiness cannette</label></td>
+					<td><input type="text" class="court" name="nb85" value="1" /></td>
+					<td>(3.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="39" id="c39" /></td>
+					<td><label for="c39"> Kwak</label></td>
+					<td><input type="text" class="court" name="nb39" value="1" /></td>
+					<td>(2.50 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="13" id="c13" /></td>
+					<td><label for="c13"> Leffe Normale (25cl) </label></td>
+					<td><input type="text" class="court" name="nb13" value="1" /></td>
+					<td>(1.30 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="14" id="c14" /></td>
+					<td><label for="c14"> Leffe Ruby</label></td>
+					<td><input type="text" class="court" name="nb14" value="1" /></td>
+					<td>(1.30 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="189" id="c189" /></td>
+					<td><label for="c189"> Long Drink</label></td>
+					<td><input type="text" class="court" name="nb189" value="1" /></td>
+					<td>(2.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="45" id="c45" /></td>
+					<td><label for="c45"> Mort Subite</label></td>
+					<td><input type="text" class="court" name="nb45" value="1" /></td>
+					<td>(3.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="194" id="c194" /></td>
+					<td><label for="c194"> Mr Freeze</label></td>
+					<td><input type="text" class="court" name="nb194" value="1" /></td>
+					<td>(0.60 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="135" id="c135" /></td>
+					<td><label for="c135"> Orval</label></td>
+					<td><input type="text" class="court" name="nb135" value="1" /></td>
+					<td>(2.50 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="119" id="c119" /></td>
+					<td><label for="c119"> Panini Emince Poulet</label></td>
+					<td><input type="text" class="court" name="nb119" value="1" /></td>
+					<td>(2.50 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="165" id="c165" /></td>
+					<td><label for="c165"> Panini nutella</label></td>
+					<td><input type="text" class="court" name="nb165" value="1" /></td>
+					<td>(1.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="46" id="c46" /></td>
+					<td><label for="c46"> Pecheresse</label></td>
+					<td><input type="text" class="court" name="nb46" value="1" /></td>
+					<td>(5.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="58" id="c58" /></td>
+					<td><label for="c58"> Pelforth brune (25cl)</label></td>
+					<td><input type="text" class="court" name="nb58" value="1" /></td>
+					<td>(2.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="196" id="c196" /></td>
+					<td><label for="c196"> Petit dej</label></td>
+					<td><input type="text" class="court" name="nb196" value="1" /></td>
+					<td>(1.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="11" id="c11" /></td>
+					<td><label for="c11"> Pichet de Kro</label></td>
+					<td><input type="text" class="court" name="nb11" value="1" /></td>
+					<td>(5.50 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="137" id="c137" /></td>
+					<td><label for="c137"> Pinte de Grim</label></td>
+					<td><input type="text" class="court" name="nb137" value="1" /></td>
+					<td>(3.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="2" id="c2" /></td>
+					<td><label for="c2"> Pinte de Kro</label></td>
+					<td><input type="text" class="court" name="nb2" value="1" /></td>
+					<td>(2.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="38" id="c38" /></td>
+					<td><label for="c38"> Pomme foudroyante</label></td>
+					<td><input type="text" class="court" name="nb38" value="1" /></td>
+					<td>(2.50 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="195" id="c195" /></td>
+					<td><label for="c195"> Salade de riz</label></td>
+					<td><input type="text" class="court" name="nb195" value="1" /></td>
+					<td>(2.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="190" id="c190" /></td>
+					<td><label for="c190"> Shot</label></td>
+					<td><input type="text" class="court" name="nb190" value="1" /></td>
+					<td>(1.50 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="42" id="c42" /></td>
+					<td><label for="c42"> Smirnoff</label></td>
+					<td><input type="text" class="court" name="nb42" value="1" /></td>
+					<td>(1.70 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="6" id="c6" /></td>
+					<td><label for="c6"> Soft</label></td>
+					<td><input type="text" class="court" name="nb6" value="1" /></td>
+					<td>(1.00 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="101" id="c101" /></td>
+					<td><label for="c101"> Valderance</label></td>
+					<td><input type="text" class="court" name="nb101" value="1" /></td>
+					<td>(1.50 €)</td>
+				</tr>
+
+				<tr>
+					<td><input type="checkbox" name="conso[]" value="35" id="c35" /></td>
+					<td><label for="c35"> WestMalle</label></td>
+					<td><input type="text" class="court" name="nb35" value="1" /></td>
+					<td>(2.50 €)</td>
+				</tr>
+
+					</tbody>
+				</table>
+
+				<input type="submit" value="Débiter" />

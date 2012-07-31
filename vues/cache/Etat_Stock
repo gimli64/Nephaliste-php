@@ -1,0 +1,314 @@
+<div id="tache-1">
+	<table class="style">
+		<tr>
+			<th>Nom</th>
+                        <th>Stock</th>
+		</tr>
+
+		<tr>
+			<th></th>
+			<th></th>
+		</tr>
+		
+		<tr>
+			<td>Demi de Kro</td>
+                        <td>-802</td>
+		</tr>
+		<tr>
+			<td>Pinte de Kro</td>
+                        <td>-3759</td>
+		</tr>
+		<tr>
+			<td>Soft</td>
+                        <td>-153</td>
+		</tr>
+		<tr>
+			<td>Carlsberg</td>
+                        <td>-291</td>
+		</tr>
+		<tr>
+			<td>Pichet de Kro</td>
+                        <td>-96</td>
+		</tr>
+		<tr>
+			<td>Leffe Normale (25cl) </td>
+                        <td>-42</td>
+		</tr>
+		<tr>
+			<td>Leffe Ruby</td>
+                        <td>-205</td>
+		</tr>
+		<tr>
+			<td>DOUUUUUUZE</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Biere du demon</td>
+                        <td>20</td>
+		</tr>
+		<tr>
+			<td>Croque Monsieur</td>
+                        <td>8</td>
+		</tr>
+		<tr>
+			<td>Duvel</td>
+                        <td>-9</td>
+		</tr>
+		<tr>
+			<td>Pietra</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Eku</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Cuvee des Trolls</td>
+                        <td>1</td>
+		</tr>
+		<tr>
+			<td>Rince Cochon</td>
+                        <td>9</td>
+		</tr>
+		<tr>
+			<td>WestMalle</td>
+                        <td>-33</td>
+		</tr>
+		<tr>
+			<td>Chimay</td>
+                        <td>-116</td>
+		</tr>
+		<tr>
+			<td>Pomme foudroyante</td>
+                        <td>-34</td>
+		</tr>
+		<tr>
+			<td>Kwak</td>
+                        <td>-43</td>
+		</tr>
+		<tr>
+			<td>Brigand</td>
+                        <td>-29</td>
+		</tr>
+		<tr>
+			<td>Bernardus</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Smirnoff</td>
+                        <td>-152</td>
+		</tr>
+		<tr>
+			<td>Kirin</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Mort Subite</td>
+                        <td>-48</td>
+		</tr>
+		<tr>
+			<td>Pecheresse</td>
+                        <td>-25</td>
+		</tr>
+		<tr>
+			<td>Leffe 9 (bleu)</td>
+                        <td>-273</td>
+		</tr>
+		<tr>
+			<td>Affligem</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Jenlain ambree</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Pelforth brune (25cl)</td>
+                        <td>-2</td>
+		</tr>
+		<tr>
+			<td>Fischer</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Chti</td>
+                        <td>-48</td>
+		</tr>
+		<tr>
+			<td>Goudale</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Freixenet (bouteille)</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Corona</td>
+                        <td>-96</td>
+		</tr>
+		<tr>
+			<td>Hoegaarden</td>
+                        <td>-155</td>
+		</tr>
+		<tr>
+			<td>Grim bouteille (25cl)</td>
+                        <td>-17</td>
+		</tr>
+		<tr>
+			<td>George Killian</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Delirium</td>
+                        <td>-64</td>
+		</tr>
+		<tr>
+			<td>Hot Dog</td>
+                        <td>-35</td>
+		</tr>
+		<tr>
+			<td>Guiness cannette</td>
+                        <td>-149</td>
+		</tr>
+		<tr>
+			<td>Despe (33cl)</td>
+                        <td>-194</td>
+		</tr>
+		<tr>
+			<td>Karmeleit</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Adelscott</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Faro Lindsmans</td>
+                        <td>-46</td>
+		</tr>
+		<tr>
+			<td>Framboise foudroyante</td>
+                        <td>-24</td>
+		</tr>
+		<tr>
+			<td>Dark Dog</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Valderance</td>
+                        <td>-50</td>
+		</tr>
+		<tr>
+			<td>Carolus</td>
+                        <td>-108</td>
+		</tr>
+		<tr>
+			<td>Croque Monsieur Nutella</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Panini Jambon</td>
+                        <td>-204</td>
+		</tr>
+		<tr>
+			<td>Panini Emince Poulet</td>
+                        <td>-399</td>
+		</tr>
+		<tr>
+			<td>Donut</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Lancelot</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>1664 (25cl)</td>
+                        <td>10</td>
+		</tr>
+		<tr>
+			<td>Orval</td>
+                        <td>-13</td>
+		</tr>
+		<tr>
+			<td>Demi de Grim</td>
+                        <td>-249</td>
+		</tr>
+		<tr>
+			<td>Pinte de Grim</td>
+                        <td>-537</td>
+		</tr>
+		<tr>
+			<td>Leffe (33cl)</td>
+                        <td>-54</td>
+		</tr>
+		<tr>
+			<td>Duff</td>
+                        <td>-35</td>
+		</tr>
+		<tr>
+			<td>Kro bouteille</td>
+                        <td>-55</td>
+		</tr>
+		<tr>
+			<td>Grain dorge</td>
+                        <td>0</td>
+		</tr>
+		<tr>
+			<td>Panini nutella</td>
+                        <td>-239</td>
+		</tr>
+		<tr>
+			<td>Despe Red</td>
+                        <td>-33</td>
+		</tr>
+		<tr>
+			<td>Long Drink</td>
+                        <td>-53</td>
+		</tr>
+		<tr>
+			<td>Shot</td>
+                        <td>-14</td>
+		</tr>
+		<tr>
+			<td>4 Shots (4 euros)</td>
+                        <td>-18</td>
+		</tr>
+		<tr>
+			<td>Kasteel</td>
+                        <td>-10</td>
+		</tr>
+		<tr>
+			<td>Mr Freeze</td>
+                        <td>-56</td>
+		</tr>
+		<tr>
+			<td>Salade de riz</td>
+                        <td>-25</td>
+		</tr>
+		<tr>
+			<td>Petit dej</td>
+                        <td>-2</td>
+		</tr>
+		<tr>
+			<td>Croissant pain choco</td>
+                        <td>-22</td>
+		</tr>
+		<tr>
+			<td>Cafe</td>
+                        <td>6</td>
+		</tr>
+		<tr>
+			<td>Burger</td>
+                        <td>-30</td>
+		</tr>
+		<tr>
+			<td>Burger Frites</td>
+                        <td>-11</td>
+		</tr>
+		<tr>
+			<td>Barbeuc (2 sandwiches)</td>
+                        <td>10</td>
+		</tr>
+	</table>
+</div>

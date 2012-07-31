@@ -1,0 +1,40 @@
+Description rapide du fonctionnement du système de gestion de la Coopé
+
+index.php : controleur principal, par lequel passe toute demande de page/d'action
+Les autres fichiers à la racine servent à répondre aux requête de type Ajax (quel compte a ce nom ? etc. Et ne modifient rien
+Structure d'une demande :
+- page demandée avec une url finissant par "Module", avec une requête GET
+-- alors afficher la vue correspondant, ne génère pas d'action
+-- exemples : Recettes, Nouvelle-Recette, Comptes-Liste, etc.
+-- par défaut : Tasks (affichage de la page principale)
+- cas particulier : Control-nomDeControleur
+-- il s'agit d'actions sans paramètre, déclenchées par un clic sur un lien
+-- ce sont donc des requêtes GET
+-- ce n'est alors pas une vue qui est demandée mais un contrôleur : une action est réalisée. La vue affichée est alors Tasks par défaut
+- en temps normal, le controleur est spécifié par un argument ("tache") d'une requête POST. Voir paragraphe suivant.
+
+Canoniquement (à part le Control-Controleur expliqué ci-dessus), les controleurs fonctionnent ainsi
+- une demande d'action passe par un controleur
+- côté client, elle est déclenchée par l'envoi d'un formulaire
+- celui-ci contient un champ caché de nom "tache"
+- cette tâche correpond au nom du contrôleur
+- le controleur principal (cette page, index.php) appelle le controleur en question en lui fournissant tous les autres champs fournis par le formulaire
+- ce controleur peut retourner un message, affiché à l'utilisateur, et même rediriger l'utilisateur : demander de changer la page affichée (qui est Tasks par défaut)
+- il peut également fournir des options à utiliser pour le coprs de page (que ce soit le corps par défaut ou une page qu'il a explicitée comme décrit ci-dessus)
+
+On génère ensuite la vue
+- toute vue hérite de la classe Vue
+- on affiche le Header, puis la vue centrale (qui hérite de VueCentrale) avec le message laissé par le controleur et des paramètres s'il y en a. Enfin, on affiche le footer
+- lire README-Vues pour la description du système de cache
+
+Côté utilisateur, JQuery est utilisé. Javascript est (malheureusement) nécessaire au bon fonctionnement.
+
+Le système est exclusivement destiné aux Coopémen, et pas au consommateur.
+
+Il y a plusieurs options pour le programme, présentes dans la base de données dans la table parametres.
+Les infos de connexion à la DB sont dans modeles/Query.php
+
+Ce système de gestion implémente le patron MVC
+Seuls les modèles peuvent modifier les données
+Les controleurs ne modifient donc jamais rien directement - ils en donnent l'ordre au modèle
+Seule la Vue a le droit d'afficher quoi que ce soit. Elle peut également demander des données au Modèle, mais rien modifier

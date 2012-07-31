@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+	<title>class Modifier_Compte</title>
+	<link type="text/css" rel="stylesheet" href="$resources/style.css"/>
+	<script type="text/javascript" language="javascript" src="$resources/treeview.js"></script>
+</head>
+<body onload="toggler.setupTreeView('MainList');toggler.backToMemorizedState('MainList', 'btnToggle')">
+	<ul class="navig">
+	<li><a href="javascript:toggler.toggleAll('MainList', 'btnToggle')" class="expandAllBtn" id="btnToggle">Expand all</a></li><li><a href="help.htm" class="helpBtn">Help</a></li><li><a href="index-all.htm" class="indexAllBtn">Index</a></li><li><a href="class-Historiquee.htm" class="left">Prev class</a></li><li><a href="package-summary.htm" class="top">Package</a></li><li><a href="class-Crediter.htm" class="right">Next class</a></li>
+	</ul>
+	<h1 class="class">Modifier_Compte</h1>
+	<div id="MainList">
+	<div class="description"><p>Class <span class="title">Modifier_Compte</span> extends <a href="class-VueCacheable.htm" class="link2">VueCacheable</a></p><ul class="description"><li>File: vues/Modifier_Compte.php</li></ul></div><dl class="inheritTree"><dd style="padding-left:-15px"><a href="class-Vue.htm" class="link2">Vue</a></dd><dd style="padding-left:6px"><img src="$resources/inherit.gif" alt="extended by "/><a href="class-VueCacheable.htm" class="link2">VueCacheable</a></dd><dd style="padding-left:45px" class="current"><img src="$resources/inherit.gif" alt="extended by "/>Modifier_Compte</dd></dl><h2>Properties</h2><ul class="summary"><li class="Collapsed" id="cache"><a href="javascript:void(0);" class="property-pro" target="main">$cache</a><ul class="description"><li>Protected static <a href="datatype-array.htm" class="link">array</a> <span class="smallTitle">$cache</span><span class="defVal"> = array(&#039;
+	&lt;div id=&quot;tache-1&quot;&gt;
+	&lt;form action=&quot;&#039;,&#039;&quot; method=&quot;post&quot;&gt;
+
+		&lt;p&gt;
+			&lt;label for=&quot;nom_modification&quot;&gt;Compte : &lt;/label&gt;
+			&lt;input type=&quot;text&quot; id=&quot;main_nom&quot; class=&quot;compte&quot; /&gt;
+			&lt;input type=&quot;button&quot; id=&quot;charger_compte&quot; value=&quot;Charger le compte&quot; /&gt;
+		&lt;/p&gt;
+		
+		&lt;input type=&quot;hidden&quot; name=&quot;tache&quot; value=&quot;ModifierCompte&quot; /&gt;
+		&lt;input type=&quot;hidden&quot; name=&quot;id&quot; id=&quot;rc_id&quot; value=&quot;&quot; /&gt;
+		&lt;p&gt;
+			&lt;label for=&quot;rc_prenom&quot;&gt;Pr&eacute;nom : &lt;/label&gt;&lt;input type=&quot;text&quot; name=&quot;prenom&quot; id=&quot;rc_prenom&quot; /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;label for=&quot;rc_nom&quot;&gt;Nom : &lt;/label&gt;&lt;input type=&quot;text&quot; name=&quot;nom&quot; id=&quot;rc_nom&quot; /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;label for=&quot;rc_surnom&quot;&gt;Surnom : &lt;/label&gt;&lt;input type=&quot;text&quot; name=&quot;surnom&quot; id=&quot;rc_surnom&quot; /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;label for=&quot;rc_email&quot;&gt;Email : &lt;/label&gt;&lt;input type=&quot;text&quot; name=&quot;email&quot; id=&quot;rc_email&quot; /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;Promo :
+&#039;,&#039;
+&lt;input type=&quot;radio&quot; name=&quot;promo&quot; value=&quot;0&quot; id=&quot;rc_p0&quot; /&gt; &lt;label for=&quot;rc_p0&quot;&gt;Ext&eacute;rieur&lt;/label&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;label for=&quot;rc_depot&quot;&gt;Solde : &lt;/label&gt;&lt;input type=&quot;text&quot; name=&quot;depot&quot; id=&quot;rc_depot&quot; /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;label for=&quot;rc_caution_0&quot;&gt;Ch&egrave;que de caution :&lt;/label&gt;
+			&lt;input type=&quot;radio&quot; value=&quot;1&quot; id=&quot;rc_caution_1&quot; name=&quot;caution&quot; /&gt;&lt;label for=&quot;rc_caution_1&quot;&gt;Oui (25 &euro;)&lt;/label&gt;
+			&lt;input type=&quot;radio&quot; value=&quot;0&quot; id=&quot;rc_caution_0&quot; name=&quot;caution&quot; checked=&quot;checked&quot; /&gt;&lt;label for=&quot;rc_caution_0&quot;&gt;Non&lt;/label&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;label for=&quot;rc_coopeman_0&quot;&gt;Coop&eacute;man :&lt;/label&gt;
+			&lt;input type=&quot;radio&quot; value=&quot;1&quot; id=&quot;rc_coopeman_1&quot; name=&quot;coopeman&quot; /&gt;&lt;label for=&quot;rc_coopeman_1&quot;&gt;Oui&lt;/label&gt;
+			&lt;input type=&quot;radio&quot; value=&quot;0&quot; id=&quot;rc_coopeman_0&quot; name=&quot;coopeman&quot; checked=&quot;checked&quot; /&gt;&lt;label for=&quot;rc_coopeman_0&quot;&gt;Non&lt;/label&gt;
+		&lt;/p&gt;	
+		&lt;input type=&quot;submit&quot; value=&quot;Modifier&quot; /&gt;
+	&lt;/form&gt;
+	&lt;/div&gt;&#039;)</span></li></ul></li></ul><h2>Functions</h2><ul class="summary"><li class="Collapsed" id="f4d84dc67a3ca8"><a href="javascript:void(0);" class="method-pub" target="main">fraiche</a>()<ul class="description"><li>Public <a href="datatype-void.htm" class="link">void</a> <span class="smallTitle">fraiche</span>()</li></ul></li></ul>
+	</div>
+	<div id="footer">Documentation generated on Mar 19, 2011, 17:40:07 +0100 by <a href="http://pear.php.net/package/PHP_UML/" target="_new">PHP_UML</a></div>
+</body>
+</html>

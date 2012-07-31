@@ -1,0 +1,19 @@
+body
+{
+  background-color:black;
+}
+
+#module
+{
+  position:absolute;
+  left:450px;
+  top:50px;
+}
+
+strong
+{
+  display:block;
+  color:white;
+  text-align:center;
+  font-size: 120%;
+}

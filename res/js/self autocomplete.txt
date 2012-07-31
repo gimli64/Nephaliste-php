@@ -1,0 +1,33 @@
+	$("input.compte").keyup(function () {
+		if ($(this).val().length > 2) {
+			var origine = this;
+			var liste = $(origine).next();
+			$.getJSON("compte.php", {compte: $(this).val()}, function(reponse) {
+
+				if (liste.length == 0) {
+					$(origine).after('<ul class="choix"></ul>');
+					liste = $(origine).next();
+				} else {
+					liste.html("");
+				}
+
+				if (reponse == null) {
+					liste.html("Aucun résultat");
+				} else {
+					var recherche = $(origine).val();
+					$.each (reponse, function() {
+						liste.append('<li><a href="'
+								+ this.replace(/"/g,"%22")
+								+ '">'
+								+ this.substring(0,this.toLowerCase().indexOf(recherche.toLowerCase(),0))
+								+ "<b>"
+								+ this.substr(this.toLowerCase().indexOf(recherche.toLowerCase(),0),recherche.length)
+								+ "</b>"
+								+ this.substring(this.toLowerCase().indexOf(recherche.toLowerCase(),0)+recherche.length,this.length)
+								+ "</a></li>");
+					});
+					ecouteur();
+				}
+			});
+		}
+	});

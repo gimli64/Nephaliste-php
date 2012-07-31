@@ -1,0 +1,17 @@
+Reste à faire :
+
+tâches cron pour la maintenance
+Namespaces (collison de nom avec Historique)
+Mettre en place un vrai système de routage d'urls...
+
+- Debiter.php : modeles/getRecettes fait appel à un left join, un group by, un order... trier par popularité est difficile comme ça
+- Comptes_Liste : les éléments sont donnés par le controleur ! Or on n'y passe par quand on affiche la liste la première fois ! Soit mettre dans la vue, soit faire passer par le controleur... Control-Comptes-Liste (ergh). Cf. vrai système de routage d'urls..
+
+
+
+--- faire par Robin !
+
+- affichage rapide plus effricace (passer par un menu dans l'interface plutot que d'aller modifier le code)
+		FAIT : on a maintenant une option 'soiree' dans la page de modifications des recettes qui permet d'afficher des boutons en plus quand on a des recettes exceptionnelles (genre truc   			de soiree. si rien de coche : pas de colonne. si 5 ou moins de coches : une colonne. Si plus de 5 de coches, deux colonnes. Si plus de 10 les suivantes ne seront pas prises en			 compte...
+- gestion photo des nIas l'an prochain
+- transfert Nephaliste avec Lucas.

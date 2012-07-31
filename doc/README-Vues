@@ -1,0 +1,25 @@
+Fonctionnement des vues :
+- classe Vue
+- classes VueCentrale et VueCacheable héritent de Vue
+- VueCentrale : peut afficher un message
+- VueCacheable : une version cacheable existe/peut exister
+
+- une vue a un attribut $cache qui contient les morceaux statiques (le code html) de la page
+- dans une VueCacheable, il sont ré-assemblés à la demande (méthode regenerer) pour réécrire le cache
+- dans une VueCentrale, il sont ré-assemblés à chaque fois
+
+Méthodes d'une vue :
+- constructeur : prend des options en paramètre, et un message pour une VueCentrale
+- code : rend le code source d'une vue
+- display (finale) : l'affiche
+
+Méthodes d'une vue cacheable :
+- code est finale
+- renegerer : récupère un code source frais et l'écrit. N'est pas finale à cause de Frontend, qui écrira ailleurs (sur serveurs du rézo ?)
+- fraiche : ré-assemble le code source sans le cacher (méthode qui correspond à la méthode code d'une vue « autre » (non cacheable))
+
+
+La régénération du cache peut survenir de plusieurs manières :
+- Fichier de cache absent
+- Régénération de tout le cache depuis la page d'admin
+- Modification de certaines données. C'est alors une régénération des pages concernées seulement, lancée par le controleur.

@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+	<title>class VueCentrale</title>
+	<link type="text/css" rel="stylesheet" href="$resources/style.css"/>
+	<script type="text/javascript" language="javascript" src="$resources/treeview.js"></script>
+</head>
+<body onload="toggler.setupTreeView('MainList');toggler.backToMemorizedState('MainList', 'btnToggle')">
+	<ul class="navig">
+	<li><a href="javascript:toggler.toggleAll('MainList', 'btnToggle')" class="expandAllBtn" id="btnToggle">Expand all</a></li><li><a href="help.htm" class="helpBtn">Help</a></li><li><a href="index-all.htm" class="indexAllBtn">Index</a></li><li><a href="class-Header.htm" class="left">Prev class</a></li><li><a href="package-summary.htm" class="top">Package</a></li><li><a href="class-Historiquee.htm" class="right">Next class</a></li>
+	</ul>
+	<h1 class="class abstract">VueCentrale</h1>
+	<div id="MainList">
+	<div class="description"><p>Abstract class <span class="title">VueCentrale</span> extends <a href="class-Vue.htm" class="link2">Vue</a></p><ul class="description"><li>VueCentrale : gère les messages</li><li>All subclasses: <a href="class-Comptes_Liste.htm" class="link2">Comptes_Liste</a>, <a href="class-Historiquee.htm" class="link2">Historiquee</a>, <a href="class-Tasks.htm" class="link2">Tasks</a>, <a href="class-Infos.htm" class="link2">Infos</a></li><li>File: vues/VueCentrale.php</li></ul></div><dl class="inheritTree"><dd style="padding-left:-15px"><a href="class-Vue.htm" class="link2">Vue</a></dd><dd style="padding-left:6px" class="current"><img src="$resources/inherit.gif" alt="extended by "/>VueCentrale</dd></dl><h2>Properties</h2><ul class="summary"><li class="Collapsed" id="message"><a href="javascript:void(0);" class="property-pro" target="main">$message</a><ul class="description"><li>Protected <a href="datatype-bool.htm" class="link">bool</a> <span class="smallTitle">$message</span><span class="defVal"> = false</span></li></ul></li></ul><h2>Functions</h2><ul class="summary"><li class="Collapsed" id="f4d84dc67a1c44"><a href="javascript:void(0);" class="method-pub" target="main">__construct</a>()<ul class="description"><li>Public <a href="datatype-void.htm" class="link">void</a> <span class="smallTitle">__construct</span>()</li><li>Constructeur : 2 paramètres optionnels : message et options</li></ul></li><li class="Collapsed" id="f4d84dc67a1fb1"><a href="javascript:void(0);" class="method-pro" target="main">formatMessage</a>(<a href="datatype-mixed.htm" class="link">mixed</a> $message)<ul class="description"><li>Protected <span class="link">Le</span> <span class="smallTitle">formatMessage</span>(<a href="datatype-mixed.htm" class="link">mixed</a> $message)</li><li>Rend un message formaté, en &lt;li&gt; Appelé par le constructeur, surtout</li><li class="smaller">@param $message Message qu'on veut formater</li><li class="smaller">@return Le message formaté</li></ul></li><li class="Collapsed" id="f4d84dc67a2490"><a href="javascript:void(0);" class="method-pro" target="main">wrapMessage</a>(<a href="datatype-bool.htm" class="link">bool</a> $menu<span class="defVal"> = false</span>)<ul class="description"><li>Protected <a href="datatype-void.htm" class="link">void</a> <span class="smallTitle">wrapMessage</span>(<a href="datatype-bool.htm" class="link">bool</a> $menu<span class="defVal"> = false</span>)</li><li>Permet d'afficher facilement le message dans la page</li></ul></li></ul>
+	</div>
+	<div id="footer">Documentation generated on Mar 19, 2011, 17:40:07 +0100 by <a href="http://pear.php.net/package/PHP_UML/" target="_new">PHP_UML</a></div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+	<title>class Cloture</title>
+	<link type="text/css" rel="stylesheet" href="$resources/style.css"/>
+	<script type="text/javascript" language="javascript" src="$resources/treeview.js"></script>
+</head>
+<body onload="toggler.setupTreeView('MainList');toggler.backToMemorizedState('MainList', 'btnToggle')">
+	<ul class="navig">
+	<li><a href="javascript:toggler.toggleAll('MainList', 'btnToggle')" class="expandAllBtn" id="btnToggle">Expand all</a></li><li><a href="help.htm" class="helpBtn">Help</a></li><li><a href="index-all.htm" class="indexAllBtn">Index</a></li><li><a href="class-Rechercher.htm" class="left">Prev class</a></li><li><a href="package-summary.htm" class="top">Package</a></li><li><a href="class-Modifier_Recettes.htm" class="right">Next class</a></li>
+	</ul>
+	<h1 class="class">Cloture</h1>
+	<div id="MainList">
+	<div class="description"><p>Class <span class="title">Cloture</span> extends <a href="class-VueCacheable.htm" class="link2">VueCacheable</a></p><ul class="description"><li>File: vues/Cloture.php</li></ul></div><dl class="inheritTree"><dd style="padding-left:-15px"><a href="class-Vue.htm" class="link2">Vue</a></dd><dd style="padding-left:6px"><img src="$resources/inherit.gif" alt="extended by "/><a href="class-VueCacheable.htm" class="link2">VueCacheable</a></dd><dd style="padding-left:45px" class="current"><img src="$resources/inherit.gif" alt="extended by "/>Cloture</dd></dl><h2>Properties</h2><ul class="summary"><li class="Collapsed" id="cache"><a href="javascript:void(0);" class="property-pro" target="main">$cache</a><ul class="description"><li>Protected static <a href="datatype-array.htm" class="link">array</a> <span class="smallTitle">$cache</span><span class="defVal"> = array(&#039;
+&lt;div id=&quot;tache-1&quot;&gt;
+	&lt;form method=&quot;post&quot; action=&quot;&#039;,&#039;&quot;&gt;
+		&lt;input type=&quot;hidden&quot; name=&quot;tache&quot; value=&quot;Cloture&quot; /&gt;
+		&lt;p&gt;
+			Vous pouvez ici choisir d\&#039;ouvrir ou de fermer des comptes, par ann&eacute;e ou par personne, avec un filtre sur le solde (positif/n&eacute;gatif) en plus.&lt;br/&gt;
+			&lt;label for=&quot;annees_ouvertes&quot;&gt;Nombre d\&#039;ann&eacute;es &agrave; laisser ouvertes : &lt;/label&gt;&lt;input type=&quot;text&quot; name=&quot;annees_ouvertes&quot; id=&quot;annees_ouvertes&quot; value=&quot;&#039;,&#039;&quot; /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;input type=&quot;radio&quot; id=&quot;fermer_negatif_1&quot; name=&quot;fermer_negatif&quot; value=&quot;1&quot; /&gt; &lt;label for=&quot;fermer_negatif_1&quot;&gt;Fermer &eacute;galement les comptes en n&eacute;gatif&lt;/label&gt;&lt;br/&gt;
+			&lt;input type=&quot;radio&quot; id=&quot;fermer_negatif_0&quot; name=&quot;fermer_negatif&quot; value=&quot;0&quot; /&gt; &lt;label for=&quot;fermer_negatif_0&quot;&gt;Laisser les comptes en n&eacute;gatif ouverts&lt;/label&gt;&lt;br/&gt;
+			
+		&lt;/p&gt;
+			
+		&lt;p&gt;
+			Pour sp&eacute;cifier des r&egrave;gles plus fines (pour telle ann&eacute;e, laisser les comptes n&eacute;gatifs ouverts, pour telle autre, les fermer, fermer ce compte, ouvrir celui-ci, etc.), utilisez le champ ci-dessous.&lt;br/&gt;
+			La syntaxe est simple. Deux lignes suffisent &agrave; tout faire, mais en utiliser plus peut &ecirc;tre une bonne id&eacute;e pour ne pas se planter.&lt;br/&gt;
+			On commence par dire si on veut &lt;cite&gt;ouvrir&lt;/cite&gt; ou &lt;cite&gt;fermer&lt;/cite&gt;. Apr&egrave;s un espace, on met la liste des &eacute;l&eacute;ments &agrave; qui on veut appliquer la commande.&lt;br/&gt;
+			Chaque &eacute;l&eacute;ment est s&eacute;par&eacute; des autres par une virgule.&lt;br/&gt;
+			Pour sp&eacute;cifier une promo en absolu, on met l\&#039;ann&eacute;e (exemple : &lt;cite&gt;2012&lt;/cite&gt;).&lt;br/&gt;
+			Pour sp&eacute;cifier une promo en relatif, on met la diff&eacute;rence d\&#039;ann&eacute;es avec la promo actuelle (exemple : &lt;cite&gt;-2&lt;/cite&gt;).&lt;br/&gt;
+			Pour sp&eacute;cifier une personne, on met son titre (Nom &quot;surnom&quot; Pr&eacute;nom) entre crochets (exemple : &lt;cite&gt;[Fran&ccedil;ois &quot;fesse&quot; Savary]&lt;/cite&gt;).&lt;br/&gt;
+			Apr&egrave;s chaque ann&eacute;e (en relatif ou absolu), on peut mettre un signe * pour sp&eacute;cifier qu\&#039;il ne faut fermer que ceux dont le compte est en positif &lt;em&gt;pour un cl&ocirc;ture&lt;/em&gt; et qu\&#039;il ne faut ouvrir que ceux dont le compte est en n&eacute;gatif &lt;em&gt;pour une rouverture&lt;/em&gt;.&lt;br/&gt;
+			&lt;br/&gt;
+			Voici des exemples :
+			
+			&lt;dl id=&quot;script&quot;&gt;
+				&lt;dt&gt;Fermeture int&eacute;grale des deux derni&egrave;res promotions (i.e. si la promo en cours est 2015, fermer 2014 et 2013) :&lt;/dt&gt;
+				&lt;dd&gt;fermer -1,-2&lt;/dd&gt;
+				
+				&lt;dt&gt;Fermeture des promotions 2012 (ceux qui ont un compte positif) et 2011 (tous)&lt;/dt&gt;
+				&lt;dd&gt;fermer 2011,2012*&lt;/dd&gt;
+				
+				&lt;dt&gt;Ouverture int&eacute;grale de ces promotions&lt;/dt&gt;
+				&lt;dd&gt;ouvrir 2011,2012&lt;/dd&gt;
+				
+				&lt;dt&gt;Fermer le compte de Bruno Cauet&lt;/dt&gt;
+				&lt;dd&gt;fermer [Bruno Cauet]&lt;/dd&gt;
+				
+				&lt;dt&gt;Rouvrir les comptes de Bruno Cauet, Marc Beauchet et de ceux qui ont un compte en n&eacute;gatif parmi la promo 2011&lt;/dt&gt;
+				&lt;dd&gt;ouvrir [Bruno Cauet],[Jocelyn Caulet],2011*&lt;/dd&gt;
+				
+				&lt;dt&gt;Commande qui ne fait &agrave; peu pr&egrave;s rien quand la promo actuelle est 2013 (en fait &ccedil;a va supprimer toutes les r&egrave;gles sp&eacute;ciales concernant la promo 2012)&lt;/dt&gt;
+				&lt;dd&gt;fermer 2012&lt;br/&gt;ouvrir -1&lt;/dd&gt;
+			
+			&lt;/dl&gt;
+			&lt;textarea name=&quot;regles&quot;&gt;&lt;/textarea&gt;
+		&lt;/p&gt;
+
+		&lt;input type=&quot;submit&quot; value=&quot;Cl&ocirc;turer/rouvrir&quot; /&gt;
+	&lt;/form&gt;
+
+&lt;/div&gt;&#039;)</span></li></ul></li></ul><h2>Functions</h2><ul class="summary"><li class="Collapsed" id="f4d84dc67a5467"><a href="javascript:void(0);" class="method-pub" target="main">fraiche</a>()<ul class="description"><li>Public <a href="datatype-void.htm" class="link">void</a> <span class="smallTitle">fraiche</span>()</li></ul></li></ul>
+	</div>
+	<div id="footer">Documentation generated on Mar 19, 2011, 17:40:07 +0100 by <a href="http://pear.php.net/package/PHP_UML/" target="_new">PHP_UML</a></div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+   <div id="tache-1">
+      <form action="Tasks" method="post">
+         <input type="hidden" name="tache" value="MailOuverture" />
+
+         <h3> Envoi du tripromo </h3> 
+         <div id="sujet">  
+            <label for="subject"> Sujet :</label><input type="text" name="subject" />
+         </div>
+         <div id="corps">  
+            <label for="body"> Corps du mail :</label>
+               <textarea name="body"></textarea>
+         </div>
+         <input type="submit" value="Envoyer le mail" />
+      </form>
+   </div>

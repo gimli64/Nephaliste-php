@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+	<title>class Comptes_Liste</title>
+	<link type="text/css" rel="stylesheet" href="$resources/style.css"/>
+	<script type="text/javascript" language="javascript" src="$resources/treeview.js"></script>
+</head>
+<body onload="toggler.setupTreeView('MainList');toggler.backToMemorizedState('MainList', 'btnToggle')">
+	<ul class="navig">
+	<li><a href="javascript:toggler.toggleAll('MainList', 'btnToggle')" class="expandAllBtn" id="btnToggle">Expand all</a></li><li><a href="help.htm" class="helpBtn">Help</a></li><li><a href="index-all.htm" class="indexAllBtn">Index</a></li><li><a href="class-VueCacheable.htm" class="left">Prev class</a></li><li><a href="package-summary.htm" class="top">Package</a></li><li><a href="class-Header.htm" class="right">Next class</a></li>
+	</ul>
+	<h1 class="class">Comptes_Liste</h1>
+	<div id="MainList">
+	<div class="description"><p>Class <span class="title">Comptes_Liste</span> extends <a href="class-VueCentrale.htm" class="link2">VueCentrale</a></p><ul class="description"><li>File: vues/Comptes_Liste.php</li></ul></div><dl class="inheritTree"><dd style="padding-left:-15px"><a href="class-Vue.htm" class="link2">Vue</a></dd><dd style="padding-left:6px"><img src="$resources/inherit.gif" alt="extended by "/><a href="class-VueCentrale.htm" class="link2">VueCentrale</a></dd><dd style="padding-left:43px" class="current"><img src="$resources/inherit.gif" alt="extended by "/>Comptes_Liste</dd></dl><h2>Properties</h2><ul class="summary"><li class="Collapsed" id="cache"><a href="javascript:void(0);" class="property-pro" target="main">$cache</a><ul class="description"><li>Protected static <a href="datatype-array.htm" class="link">array</a> <span class="smallTitle">$cache</span><span class="defVal"> = array(&#039;
+&lt;div id=&quot;tache-1&quot;&gt;
+&lt;a href=&quot;&#039;,&#039;&quot;&gt;&lt;img src=&quot;res/images/fermer.png&quot; alt=&quot;fermer&quot; class=&quot;fermer&quot; /&gt;&lt;/a&gt;
+&lt;form method=&quot;post&quot; action=&quot;Infos&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;tache&quot; value=&quot;ModifierCompte&quot; /&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;id&quot; value=&quot;&quot; /&gt;
+
+&lt;table class=&quot;modifiable style&quot; id=&quot;compte&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Modifier&lt;/th&gt;
+			&lt;th&gt;Nom&lt;/th&gt;
+			&lt;th class=&quot;{sorter: \&#039;digit\&#039;}&quot;&gt;Solde&lt;/th&gt;
+			&lt;th&gt;Caution&lt;/th&gt;
+			&lt;th&gt;Promo&lt;/th&gt;
+			&lt;th&gt;Coopeman&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+
+	&lt;tbody&gt;&#039;,&#039;	&lt;/tbody&gt;
+&lt;/table&gt;&#039;,&#039;
+&lt;/form&gt;
+
+&lt;form method=&quot;post&quot; action=&quot;Comptes-Liste&quot;&gt;
+		&lt;input type=&quot;hidden&quot; name=&quot;tache&quot; value=&quot;ComptesListe&quot; /&gt;
+		&lt;h2&gt;Options de filtrage :&lt;br/&gt;&lt;/h2&gt;
+		&lt;p&gt;
+			&lt;label for=&quot;annees&quot;&gt;Ann&eacute;es affich&eacute;es : &lt;/label&gt;
+			&lt;select name=&quot;annees[]&quot; id=&quot;annees&quot; multiple=&quot;multiple&quot;&gt;&#039;,&#039;
+				&lt;option value=&quot;0&quot;&gt;ext&eacute;&lt;/option&gt;
+			&lt;/select&gt;
+		&lt;/p&gt;
+		
+		&lt;p&gt;
+			&lt;input type=&quot;checkbox&quot; name=&quot;ouverts&quot; value=&quot;1&quot; id=&quot;ouverts&quot; checked=&quot;checked&quot; /&gt; &lt;label for=&quot;ouverts&quot;&gt;Afficher les comptes ouverts&lt;/label&gt;&lt;br/&gt;
+			&lt;input type=&quot;checkbox&quot; name=&quot;fermes&quot; value=&quot;1&quot; id=&quot;fermes&quot; /&gt; &lt;label for=&quot;fermes&quot;&gt;Afficher les comptes ferm&eacute;s&lt;/label&gt;
+		&lt;/p&gt;
+		
+		&lt;p&gt;
+			&lt;input type=&quot;checkbox&quot; name=&quot;positifs&quot; value=&quot;1&quot; id=&quot;positifs&quot; checked=&quot;checked&quot; /&gt; &lt;label for=&quot;positifs&quot;&gt;Afficher les comptes en positif&lt;/label&gt;&lt;br/&gt;
+			&lt;input type=&quot;checkbox&quot; name=&quot;negatifs&quot; value=&quot;1&quot; id=&quot;negatifs&quot; checked=&quot;checked&quot;/&gt; &lt;label for=&quot;negatifs&quot;&gt;Afficher les comptes en n&eacute;gatif&lt;/label&gt;
+		&lt;/p&gt;
+		
+		&lt;p&gt;
+			&lt;input type=&quot;checkbox&quot; name=&quot;noncoopeman&quot; value=&quot;1&quot; id=&quot;coopeman&quot; checked=&quot;checked&quot; /&gt; &lt;label for=&quot;coopeman&quot;&gt;Afficher les non-Coop&eacute;men&lt;/label&gt;&lt;br/&gt;
+			&lt;input type=&quot;checkbox&quot; name=&quot;coopeman&quot; value=&quot;1&quot; id=&quot;noncoopeman&quot; checked=&quot;checked&quot; /&gt; &lt;label for=&quot;noncoopeman&quot;&gt;Afficher les Coop&eacute;men&lt;/label&gt;
+		&lt;/p&gt;
+		
+		&lt;p&gt;
+			&lt;input type=&quot;checkbox&quot; name=&quot;caution&quot; value=&quot;1&quot; id=&quot;caution&quot; checked=&quot;checked&quot; /&gt; &lt;label for=&quot;caution&quot;&gt;Afficher les comptes avec caution&lt;/label&gt;&lt;br/&gt;
+			&lt;input type=&quot;checkbox&quot; name=&quot;noncaution&quot; value=&quot;1&quot; id=&quot;noncaution&quot; checked=&quot;checked&quot; /&gt; &lt;label for=&quot;noncaution&quot;&gt;Afficher les comptes sans caution&lt;/label&gt;
+		&lt;/p&gt;
+		
+		&lt;input type=&quot;submit&quot; value=&quot;Obtenir la liste&quot; /&gt;
+&lt;/form&gt;
+&lt;/div&gt;&#039;)</span></li></ul></li></ul><h2>Functions</h2><ul class="summary"><li class="Collapsed" id="f4d84dc67a0068"><a href="javascript:void(0);" class="method-pub" target="main">code</a>()<ul class="description"><li>Public <a href="datatype-void.htm" class="link">void</a> <span class="smallTitle">code</span>()</li><li>Rend le code source de cette vue<br/><span class="note">(copied from class <a href="class-Vue.htm" class="link">Vue</a>)</span></li></ul></li></ul>
+	</div>
+	<div id="footer">Documentation generated on Mar 19, 2011, 17:40:07 +0100 by <a href="http://pear.php.net/package/PHP_UML/" target="_new">PHP_UML</a></div>
+</body>
+</html>

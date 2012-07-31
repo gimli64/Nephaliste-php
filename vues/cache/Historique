@@ -1,0 +1,53 @@
+
+				<input type="hidden" name="tache" value="Historique" />
+                                <script type="text/javascript">
+                                
+                                   function NombreJour() {
+                                      var mois = document.getElementById("mois").value;  
+                                      var annee = document.getElementById("annee").value; 
+                                      return (32 - new Date(annee,mois-1,32).getDate());    
+                                   }
+        
+                                   function MasqueJour() {
+                                      var nb_max = NombreJour() + 1;
+                                      var nb = 1;
+                                      if (document.getElementById("mois").value != "") {
+                                         while(nb != nb_max) {
+                                            document.getElementById("jour_" + nb).disabled = false; 
+                                            nb++;
+                                         }
+                                      }
+                                      while(nb != 32) {
+                                         document.getElementById("jour_" + nb).disabled = true; 
+                                         nb++;
+                                      }
+                                   }
+                                </script>
+
+				<input type="submit" value="Consulter" />
+ 
+                                <h3> Historique des consommations </h3>
+                                   <ul> 
+                                      <li> Précisez un nom pour obtenir des informations sur ce compte </li>
+                                      <li> Indiquez une date pour obtenir l'historique des consommations à cette date</li>
+                                      <li> Si rien n'est précisé vous obtiendrez les 30 dernières consommations </li>
+                                  </ul>
+
+                                <div id="choixdate">
+                                   <select name="annee" id="annee">
+                                      <option></option>
+                                   <option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option>
+                                   </select>
+                                   <select name="mois" id="mois" onchange="MasqueJour()">
+                                      <option></option>
+                                   <option value="1">January</option><option value="2">February</option><option value="3">March</option><option value="4">April</option><option value="5">May</option><option value="6">June</option><option value="7">July</option><option value="8">August</option><option value="9">September</option><option value="10">October</option><option value="11">November</option><option value="12">December</option>
+                                   </select>
+                                   <select name="jour" id="jour">
+                                      <option></option> 
+                                   <option disabled="true" value="1" id="jour_1">1</option><option disabled="true" value="2" id="jour_2">2</option><option disabled="true" value="3" id="jour_3">3</option><option disabled="true" value="4" id="jour_4">4</option><option disabled="true" value="5" id="jour_5">5</option><option disabled="true" value="6" id="jour_6">6</option><option disabled="true" value="7" id="jour_7">7</option><option disabled="true" value="8" id="jour_8">8</option><option disabled="true" value="9" id="jour_9">9</option><option disabled="true" value="10" id="jour_10">10</option><option disabled="true" value="11" id="jour_11">11</option><option disabled="true" value="12" id="jour_12">12</option><option disabled="true" value="13" id="jour_13">13</option><option disabled="true" value="14" id="jour_14">14</option><option disabled="true" value="15" id="jour_15">15</option><option disabled="true" value="16" id="jour_16">16</option><option disabled="true" value="17" id="jour_17">17</option><option disabled="true" value="18" id="jour_18">18</option><option disabled="true" value="19" id="jour_19">19</option><option disabled="true" value="20" id="jour_20">20</option><option disabled="true" value="21" id="jour_21">21</option><option disabled="true" value="22" id="jour_22">22</option><option disabled="true" value="23" id="jour_23">23</option><option disabled="true" value="24" id="jour_24">24</option><option disabled="true" value="25" id="jour_25">25</option><option disabled="true" value="26" id="jour_26">26</option><option disabled="true" value="27" id="jour_27">27</option><option disabled="true" value="28" id="jour_28">28</option><option disabled="true" value="29" id="jour_29">29</option><option disabled="true" value="30" id="jour_30">30</option><option disabled="true" value="31" id="jour_31">31</option>
+                                   </select> 
+                                </div>
+ 
+				
+                                <p><a href="Etat-Stock">Aperçu du stock</a></p>
+                                <p><a href="HistoriqueCaisse"> Historique de la caisse </a></p> 

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMI xmlns:UML="org.omg/standards/UML" verified="false" timestamp="" xmi.version="1.2">
+<XMI.header>
+<XMI.documentation>
+<XMI.exporter>PHP2XMI</XMI.exporter>
+<XMI.exporterVersion>1.0</XMI.exporterVersion>
+<XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+</XMI.documentation>
+<XMI.model xmi.name="php2xmi" />
+<XMI.metamodel xmi.name="UML" href="UML.xml" xmi.version="1.3" />
+</XMI.header>
+<XMI.content>
+<UML:Model>
+<UML:Namespace.ownedElement>
+<UML:Stereotype visibility="public" xmi.id="4" name="my-stereotype" />
+<UML:Stereotype visibility="public" xmi.id="5" name="datatype" />
+<UML:Stereotype visibility="public" xmi.id="6" name="interface" />
+<UML:DataType stereotype="5" visibility="public" xmi.id="9" name="mixed"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="17" name="void"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="19" name="nom"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="22" name="le"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="25" name="chaine"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="27" name="$this"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="29" name="condition"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="33" name="un"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="37" name="rang"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="41" name="variable"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="44" name="id"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="46" name="valeurs"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="48" name="bool"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="50" name="&amp;$valeurs"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="52" name="l'objet"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="62" name="objet"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="66" name="table"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="70" name="array"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="72" name="Nom"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="74" name="La"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="76" name="cette"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="78" name="l'id"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="118" name="attribut"/>
+<UML:DataType stereotype="5" visibility="public" xmi.id="122" name="$as"/>
+<UML:Class visibility="public" xmi.id="8" name="Query">
+<UML:Classifier.feature>
+<UML:Attribute visibility="protected" xmi.id="10" value="" type="mixed" name="DB" ownerScope="classifier"/>
+<UML:Attribute visibility="protected" xmi.id="11" value="" type="mixed" name="where"/>
+<UML:Attribute visibility="protected" xmi.id="12" value="" type="mixed" name="tri"/>
+<UML:Attribute visibility="protected" xmi.id="13" value="" type="mixed" name="limit"/>
+<UML:Attribute visibility="protected" xmi.id="14" value="" type="mixed" name="grouper"/>
+<UML:Attribute visibility="public" xmi.id="15" value="" type="mixed" name="modele"/>
+<UML:Attribute visibility="protected" xmi.id="16" value="" type="mixed" name="transaction" ownerScope="classifier"/>
+<UML:Operation visibility="public" xmi.id="18" type="void" name="__construct">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="20" value="" type="nom" name="modele"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="21" type="void" name="fin">
+<UML:BehavioralFeature.parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="protected" xmi.id="23" type="le" name="getTable">
+<UML:BehavioralFeature.parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="24" type="void" name="trier">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="26" value="" type="chaine" name="ordre"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="28" type="$this" name="filtrer">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="30" value="" type="condition" name="condition"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="31" type="$this" name="grouper">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="32" value="" type="mixed" name="by"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="34" type="un" name="get">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="35" value="" type="condition" name="condition"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="36" type="void" name="limiter">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="38" value="" type="rang" name="de"/>
+<UML:Parameter visibility="public" xmi.id="39" value="" type="rang" name="a"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="40" type="void" name="executer">
+<UML:BehavioralFeature.parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="private" xmi.id="42" type="variable" name="nettoyer" ownerScope="classifier">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="43" value="" type="variable" name="valeur"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="45" type="id" name="sauver">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="47" value="" type="valeurs" name="valeurs"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="49" type="bool" name="maj">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="51" value="" type="&amp;$valeurs" name="valeurs"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="53" type="l'objet" name="delete">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="55" value="" type="Modele" name="objet"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Class visibility="public" xmi.id="54" name="Modele" isAbstract="true">
+<UML:Classifier.feature>
+<UML:Attribute visibility="protected" xmi.id="56" value="" type="mixed" name="_table" ownerScope="classifier"/>
+<UML:Attribute visibility="public" xmi.id="57" value="" type="mixed" name="id"/>
+<UML:Attribute visibility="protected" xmi.id="58" value="" type="mixed" name="instances" ownerScope="classifier"/>
+<UML:Attribute visibility="private" xmi.id="59" value="" type="mixed" name="objetsLies"/>
+<UML:Operation visibility="public" xmi.id="60" type="void" name="__construct">
+<UML:BehavioralFeature.parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="61" type="nom" name="getTable" ownerScope="classifier">
+<UML:BehavioralFeature.parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="63" type="objet" name="instances" ownerScope="classifier">
+<UML:BehavioralFeature.parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="protected" xmi.id="64" type="void" name="lier">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="65" value="" type="Modele" name="objet"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="private" xmi.id="67" type="table" name="vraiesValeurs">
+<UML:BehavioralFeature.parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="68" type="l'objet" name="sauver">
+<UML:BehavioralFeature.parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="69" type="void" name="delete">
+<UML:BehavioralFeature.parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="protected" xmi.id="71" type="array" name="__tas">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="73" value="" type="Nom" name="classe"/>
+<UML:Parameter visibility="public" xmi.id="75" value="" type="La" name="attribut"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="77" type="cette" name="get" ownerScope="classifier">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="79" value="" type="l'id" name="id"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="80" type="l'objet" name="__get">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="81" value="" type="mixed" name="cible"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="82" type="l'objet" name="__set">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="83" value="" type="nom" name="cible"/>
+<UML:Parameter visibility="public" xmi.id="84" value="" type="Modele" name="valeur"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="private" xmi.id="85" type="void" name="enregistrer">
+<UML:BehavioralFeature.parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Class visibility="public" xmi.id="86" name="Depot">
+<UML:Classifier.feature>
+<UML:Attribute visibility="public" xmi.id="87" value="" type="mixed" name="id"/>
+<UML:Attribute visibility="public" xmi.id="88" value="" type="mixed" name="date"/>
+<UML:Attribute visibility="public" xmi.id="89" value="" type="mixed" name="montant"/>
+<UML:Attribute visibility="public" xmi.id="90" value="" type="mixed" name="forme"/>
+<UML:Attribute visibility="protected" xmi.id="91" value="" type="mixed" name="compte"/>
+<UML:Attribute visibility="protected" xmi.id="92" value="" type="mixed" name="_classe_compte" ownerScope="classifier"/>
+<UML:Attribute visibility="protected" xmi.id="93" value="" type="mixed" name="_table" ownerScope="classifier"/>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Class visibility="public" xmi.id="94" name="AucunResultatException">
+<UML:Classifier.feature>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Class visibility="public" xmi.id="95" name="SoldeInsuffisantException">
+<UML:Classifier.feature>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Class visibility="public" xmi.id="96" name="Historique">
+<UML:Classifier.feature>
+<UML:Attribute visibility="public" xmi.id="97" value="" type="mixed" name="id"/>
+<UML:Attribute visibility="public" xmi.id="98" value="" type="mixed" name="date"/>
+<UML:Attribute visibility="protected" xmi.id="99" value="" type="mixed" name="consommation"/>
+<UML:Attribute visibility="protected" xmi.id="100" value="" type="mixed" name="_classe_consommation" ownerScope="classifier"/>
+<UML:Attribute visibility="protected" xmi.id="101" value="" type="mixed" name="compte"/>
+<UML:Attribute visibility="protected" xmi.id="102" value="" type="mixed" name="_classe_compte" ownerScope="classifier"/>
+<UML:Attribute visibility="protected" xmi.id="103" value="" type="mixed" name="_table" ownerScope="classifier"/>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Class visibility="public" xmi.id="104" name="Parametre">
+<UML:Classifier.feature>
+<UML:Attribute visibility="public" xmi.id="105" value="" type="mixed" name="nom"/>
+<UML:Attribute visibility="public" xmi.id="106" value="" type="mixed" name="valeur"/>
+<UML:Attribute visibility="protected" xmi.id="107" value="" type="mixed" name="_table" ownerScope="classifier"/>
+<UML:Operation visibility="public" xmi.id="108" type="void" name="__toString">
+<UML:BehavioralFeature.parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="109" type="objet" name="trouver" ownerScope="classifier">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="110" value="" type="nom" name="nom"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="111" type="void" name="valeur" ownerScope="classifier">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="112" value="" type="mixed" name="nom"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Class visibility="public" xmi.id="113" name="AdvancedQuery">
+<UML:Classifier.feature>
+<UML:Attribute visibility="private" xmi.id="114" value="" type="mixed" name="joint"/>
+<UML:Attribute visibility="private" xmi.id="115" value="" type="mixed" name="rows"/>
+<UML:Operation visibility="public" xmi.id="116" type="void" name="jointure">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="117" value="" type="nom" name="modele"/>
+<UML:Parameter visibility="public" xmi.id="119" value="" type="attribut" name="from"/>
+<UML:Parameter visibility="public" xmi.id="120" value="" type="attribut" name="to"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="121" type="void" name="addRow">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="123" value="" type="$as" name="nom"/>
+<UML:Parameter visibility="public" xmi.id="124" value="" type="nom" name="modele"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="125" type="void" name="addSomme">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="126" value="" type="mixed" name="attribut"/>
+<UML:Parameter visibility="public" xmi.id="127" value="" type="mixed" name="nom"/>
+<UML:Parameter visibility="public" xmi.id="128" value="" type="mixed" name="modele"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="129" type="void" name="compter">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="130" value="" type="mixed" name="nom"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="131" type="void" name="max">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="132" value="" type="mixed" name="attribut"/>
+<UML:Parameter visibility="public" xmi.id="133" value="" type="mixed" name="nom"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="134" type="void" name="min">
+<UML:BehavioralFeature.parameter>
+<UML:Parameter visibility="public" xmi.id="135" value="" type="mixed" name="attribut"/>
+<UML:Parameter visibility="public" xmi.id="136" value="" type="mixed" name="nom"/>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+<UML:Operation visibility="public" xmi.id="137" type="void" name="executer">
+<UML:BehavioralFeature.parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Class visibility="public" xmi.id="138" name="Recette">
+<UML:Classifier.feature>
+<UML:Attribute visibility="public" xmi.id="139" value="" type="mixed" name="id"/>
+<UML:Attribute visibility="public" xmi.id="140" value="" type="mixed" name="prix"/>
+<UML:Attribute visibility="public" xmi.id="141" value="" type="mixed" name="nom"/>
+<UML:Attribute visibility="public" xmi.id="142" value="" type="mixed" name="disponible"/>
+<UML:Attribute visibility="protected" xmi.id="143" value="" type="mixed" name="_table" ownerScope="classifier"/>
+<UML:Operation visibility="public" xmi.id="144" type="void" name="__toString">
+<UML:BehavioralFeature.parameter>
+</UML:BehavioralFeature.parameter>
+</UML:Operation>
+</UML:Classifier.feature>
+</UML:Class>
+<UML:Generalization child="86" visibility="public" xmi.id="145" parent="54" />
+<UML:Generalization child="94" visibility="public" xmi.id="146" parent="147" />
+<UML:Generalization child="95" visibility="public" xmi.id="148" parent="147" />
+<UML:Generalization child="96" visibility="public" xmi.id="149" parent="54" />
+<UML:Generalization child="104" visibility="public" xmi.id="150" parent="54" />
+<UML:Generalization child="113" visibility="public" xmi.id="151" parent="8" />
+<UML:Generalization child="138" visibility="public" xmi.id="152" parent="54" />
+</UML:Namespace.ownedElement>
+</UML:Model>
+</XMI.content>
+</XMI>

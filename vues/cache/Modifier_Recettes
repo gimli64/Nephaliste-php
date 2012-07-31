@@ -1,0 +1,1014 @@
+<div id="tache-1">
+<form method="post" action="Tasks">
+
+	<input type="hidden" name="tache" value="ModifierRecettes" />
+
+	<table class="style">
+
+
+		<tr>
+			<th>Nom</th>
+			<th>Prix</th>
+			<th colspan="2">Disponible</th>
+                        <th> Stock </th>
+			<th>Supprimer</th>
+                        <th colspan="2">Bouton</th>
+			<th colspan="2">Soiree</th>   
+		</tr>
+
+		<tr>
+			<th></th>
+			<th></th>
+			<th>Oui</th>
+			<th>Non</th>
+                        <th></th>  
+                        <th></th>  
+                        <th>Oui</th>  
+                        <th>Non</th>
+			<th>Oui</th>
+			<th>Non</th>  
+		</tr>
+		
+		<tr>
+			<td><input type="text" name="1_nom" value="Demi de Kro"/></td>
+			<td><input style="width: 60px;" type="text" name="1_prix" value="1.20"/></td>
+			<td><input type="radio" name="1_disponible" value="1" id="d_1_1" checked="checked" /></td>
+			<td><input type="radio" name="1_disponible" value="0" id="d_1_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="1_stock" value="-802"/></td>
+			<td><input type="checkbox" name="1_suppr" value="1" /></td>
+			<td><input type="radio" name="1_bouton" value="1" id="b_1_1" checked="checked" /></td>
+			<td><input type="radio" name="1_bouton" value="0" id="b_1_0" /></td>
+			<td><input type="radio" name="1_soiree" value="1" id="s_1_1" /></td>	
+			<td><input type="radio" name="1_soiree" value="0" id="s_1_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="2_nom" value="Pinte de Kro"/></td>
+			<td><input style="width: 60px;" type="text" name="2_prix" value="2.00"/></td>
+			<td><input type="radio" name="2_disponible" value="1" id="d_2_1" checked="checked" /></td>
+			<td><input type="radio" name="2_disponible" value="0" id="d_2_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="2_stock" value="-3759"/></td>
+			<td><input type="checkbox" name="2_suppr" value="1" /></td>
+			<td><input type="radio" name="2_bouton" value="1" id="b_2_1" checked="checked" /></td>
+			<td><input type="radio" name="2_bouton" value="0" id="b_2_0" /></td>
+			<td><input type="radio" name="2_soiree" value="1" id="s_2_1" /></td>	
+			<td><input type="radio" name="2_soiree" value="0" id="s_2_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="6_nom" value="Soft"/></td>
+			<td><input style="width: 60px;" type="text" name="6_prix" value="1.00"/></td>
+			<td><input type="radio" name="6_disponible" value="1" id="d_6_1" checked="checked" /></td>
+			<td><input type="radio" name="6_disponible" value="0" id="d_6_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="6_stock" value="-153"/></td>
+			<td><input type="checkbox" name="6_suppr" value="1" /></td>
+			<td><input type="radio" name="6_bouton" value="1" id="b_6_1" /></td>
+			<td><input type="radio" name="6_bouton" value="0" id="b_6_0" checked="checked" /></td>
+			<td><input type="radio" name="6_soiree" value="1" id="s_6_1" /></td>	
+			<td><input type="radio" name="6_soiree" value="0" id="s_6_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="9_nom" value="Carlsberg"/></td>
+			<td><input style="width: 60px;" type="text" name="9_prix" value="1.50"/></td>
+			<td><input type="radio" name="9_disponible" value="1" id="d_9_1" checked="checked" /></td>
+			<td><input type="radio" name="9_disponible" value="0" id="d_9_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="9_stock" value="-291"/></td>
+			<td><input type="checkbox" name="9_suppr" value="1" /></td>
+			<td><input type="radio" name="9_bouton" value="1" id="b_9_1" /></td>
+			<td><input type="radio" name="9_bouton" value="0" id="b_9_0" checked="checked" /></td>
+			<td><input type="radio" name="9_soiree" value="1" id="s_9_1" /></td>	
+			<td><input type="radio" name="9_soiree" value="0" id="s_9_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="11_nom" value="Pichet de Kro"/></td>
+			<td><input style="width: 60px;" type="text" name="11_prix" value="5.50"/></td>
+			<td><input type="radio" name="11_disponible" value="1" id="d_11_1" checked="checked" /></td>
+			<td><input type="radio" name="11_disponible" value="0" id="d_11_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="11_stock" value="-96"/></td>
+			<td><input type="checkbox" name="11_suppr" value="1" /></td>
+			<td><input type="radio" name="11_bouton" value="1" id="b_11_1" /></td>
+			<td><input type="radio" name="11_bouton" value="0" id="b_11_0" checked="checked" /></td>
+			<td><input type="radio" name="11_soiree" value="1" id="s_11_1" /></td>	
+			<td><input type="radio" name="11_soiree" value="0" id="s_11_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="13_nom" value="Leffe Normale (25cl) "/></td>
+			<td><input style="width: 60px;" type="text" name="13_prix" value="1.30"/></td>
+			<td><input type="radio" name="13_disponible" value="1" id="d_13_1" checked="checked" /></td>
+			<td><input type="radio" name="13_disponible" value="0" id="d_13_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="13_stock" value="-42"/></td>
+			<td><input type="checkbox" name="13_suppr" value="1" /></td>
+			<td><input type="radio" name="13_bouton" value="1" id="b_13_1" /></td>
+			<td><input type="radio" name="13_bouton" value="0" id="b_13_0" checked="checked" /></td>
+			<td><input type="radio" name="13_soiree" value="1" id="s_13_1" /></td>	
+			<td><input type="radio" name="13_soiree" value="0" id="s_13_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="14_nom" value="Leffe Ruby"/></td>
+			<td><input style="width: 60px;" type="text" name="14_prix" value="1.30"/></td>
+			<td><input type="radio" name="14_disponible" value="1" id="d_14_1" checked="checked" /></td>
+			<td><input type="radio" name="14_disponible" value="0" id="d_14_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="14_stock" value="-205"/></td>
+			<td><input type="checkbox" name="14_suppr" value="1" /></td>
+			<td><input type="radio" name="14_bouton" value="1" id="b_14_1" checked="checked" /></td>
+			<td><input type="radio" name="14_bouton" value="0" id="b_14_0" /></td>
+			<td><input type="radio" name="14_soiree" value="1" id="s_14_1" /></td>	
+			<td><input type="radio" name="14_soiree" value="0" id="s_14_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="15_nom" value="DOUUUUUUZE"/></td>
+			<td><input style="width: 60px;" type="text" name="15_prix" value="12.00"/></td>
+			<td><input type="radio" name="15_disponible" value="1" id="d_15_1" checked="checked" /></td>
+			<td><input type="radio" name="15_disponible" value="0" id="d_15_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="15_stock" value="10"/></td>
+			<td><input type="checkbox" name="15_suppr" value="1" /></td>
+			<td><input type="radio" name="15_bouton" value="1" id="b_15_1" /></td>
+			<td><input type="radio" name="15_bouton" value="0" id="b_15_0" checked="checked" /></td>
+			<td><input type="radio" name="15_soiree" value="1" id="s_15_1" /></td>	
+			<td><input type="radio" name="15_soiree" value="0" id="s_15_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="16_nom" value="Biere du demon"/></td>
+			<td><input style="width: 60px;" type="text" name="16_prix" value="2.50"/></td>
+			<td><input type="radio" name="16_disponible" value="1" id="d_16_1" /></td>
+			<td><input type="radio" name="16_disponible" value="0" id="d_16_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="16_stock" value="20"/></td>
+			<td><input type="checkbox" name="16_suppr" value="1" /></td>
+			<td><input type="radio" name="16_bouton" value="1" id="b_16_1" /></td>
+			<td><input type="radio" name="16_bouton" value="0" id="b_16_0" checked="checked" /></td>
+			<td><input type="radio" name="16_soiree" value="1" id="s_16_1" /></td>	
+			<td><input type="radio" name="16_soiree" value="0" id="s_16_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="20_nom" value="Croque Monsieur"/></td>
+			<td><input style="width: 60px;" type="text" name="20_prix" value="1.00"/></td>
+			<td><input type="radio" name="20_disponible" value="1" id="d_20_1" /></td>
+			<td><input type="radio" name="20_disponible" value="0" id="d_20_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="20_stock" value="8"/></td>
+			<td><input type="checkbox" name="20_suppr" value="1" /></td>
+			<td><input type="radio" name="20_bouton" value="1" id="b_20_1" /></td>
+			<td><input type="radio" name="20_bouton" value="0" id="b_20_0" checked="checked" /></td>
+			<td><input type="radio" name="20_soiree" value="1" id="s_20_1" /></td>	
+			<td><input type="radio" name="20_soiree" value="0" id="s_20_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="21_nom" value="Duvel"/></td>
+			<td><input style="width: 60px;" type="text" name="21_prix" value="2.50"/></td>
+			<td><input type="radio" name="21_disponible" value="1" id="d_21_1" checked="checked" /></td>
+			<td><input type="radio" name="21_disponible" value="0" id="d_21_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="21_stock" value="-9"/></td>
+			<td><input type="checkbox" name="21_suppr" value="1" /></td>
+			<td><input type="radio" name="21_bouton" value="1" id="b_21_1" /></td>
+			<td><input type="radio" name="21_bouton" value="0" id="b_21_0" checked="checked" /></td>
+			<td><input type="radio" name="21_soiree" value="1" id="s_21_1" /></td>	
+			<td><input type="radio" name="21_soiree" value="0" id="s_21_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="31_nom" value="Pietra"/></td>
+			<td><input style="width: 60px;" type="text" name="31_prix" value="2.50"/></td>
+			<td><input type="radio" name="31_disponible" value="1" id="d_31_1" /></td>
+			<td><input type="radio" name="31_disponible" value="0" id="d_31_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="31_stock" value="10"/></td>
+			<td><input type="checkbox" name="31_suppr" value="1" /></td>
+			<td><input type="radio" name="31_bouton" value="1" id="b_31_1" /></td>
+			<td><input type="radio" name="31_bouton" value="0" id="b_31_0" checked="checked" /></td>
+			<td><input type="radio" name="31_soiree" value="1" id="s_31_1" /></td>	
+			<td><input type="radio" name="31_soiree" value="0" id="s_31_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="32_nom" value="Eku"/></td>
+			<td><input style="width: 60px;" type="text" name="32_prix" value="2.50"/></td>
+			<td><input type="radio" name="32_disponible" value="1" id="d_32_1" /></td>
+			<td><input type="radio" name="32_disponible" value="0" id="d_32_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="32_stock" value="10"/></td>
+			<td><input type="checkbox" name="32_suppr" value="1" /></td>
+			<td><input type="radio" name="32_bouton" value="1" id="b_32_1" /></td>
+			<td><input type="radio" name="32_bouton" value="0" id="b_32_0" checked="checked" /></td>
+			<td><input type="radio" name="32_soiree" value="1" id="s_32_1" /></td>	
+			<td><input type="radio" name="32_soiree" value="0" id="s_32_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="33_nom" value="Cuvee des Trolls"/></td>
+			<td><input style="width: 60px;" type="text" name="33_prix" value="2.50"/></td>
+			<td><input type="radio" name="33_disponible" value="1" id="d_33_1" /></td>
+			<td><input type="radio" name="33_disponible" value="0" id="d_33_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="33_stock" value="1"/></td>
+			<td><input type="checkbox" name="33_suppr" value="1" /></td>
+			<td><input type="radio" name="33_bouton" value="1" id="b_33_1" /></td>
+			<td><input type="radio" name="33_bouton" value="0" id="b_33_0" checked="checked" /></td>
+			<td><input type="radio" name="33_soiree" value="1" id="s_33_1" /></td>	
+			<td><input type="radio" name="33_soiree" value="0" id="s_33_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="34_nom" value="Rince Cochon"/></td>
+			<td><input style="width: 60px;" type="text" name="34_prix" value="2.50"/></td>
+			<td><input type="radio" name="34_disponible" value="1" id="d_34_1" /></td>
+			<td><input type="radio" name="34_disponible" value="0" id="d_34_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="34_stock" value="9"/></td>
+			<td><input type="checkbox" name="34_suppr" value="1" /></td>
+			<td><input type="radio" name="34_bouton" value="1" id="b_34_1" /></td>
+			<td><input type="radio" name="34_bouton" value="0" id="b_34_0" checked="checked" /></td>
+			<td><input type="radio" name="34_soiree" value="1" id="s_34_1" /></td>	
+			<td><input type="radio" name="34_soiree" value="0" id="s_34_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="35_nom" value="WestMalle"/></td>
+			<td><input style="width: 60px;" type="text" name="35_prix" value="2.50"/></td>
+			<td><input type="radio" name="35_disponible" value="1" id="d_35_1" checked="checked" /></td>
+			<td><input type="radio" name="35_disponible" value="0" id="d_35_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="35_stock" value="-33"/></td>
+			<td><input type="checkbox" name="35_suppr" value="1" /></td>
+			<td><input type="radio" name="35_bouton" value="1" id="b_35_1" /></td>
+			<td><input type="radio" name="35_bouton" value="0" id="b_35_0" checked="checked" /></td>
+			<td><input type="radio" name="35_soiree" value="1" id="s_35_1" /></td>	
+			<td><input type="radio" name="35_soiree" value="0" id="s_35_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="37_nom" value="Chimay"/></td>
+			<td><input style="width: 60px;" type="text" name="37_prix" value="2.50"/></td>
+			<td><input type="radio" name="37_disponible" value="1" id="d_37_1" checked="checked" /></td>
+			<td><input type="radio" name="37_disponible" value="0" id="d_37_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="37_stock" value="-116"/></td>
+			<td><input type="checkbox" name="37_suppr" value="1" /></td>
+			<td><input type="radio" name="37_bouton" value="1" id="b_37_1" /></td>
+			<td><input type="radio" name="37_bouton" value="0" id="b_37_0" checked="checked" /></td>
+			<td><input type="radio" name="37_soiree" value="1" id="s_37_1" /></td>	
+			<td><input type="radio" name="37_soiree" value="0" id="s_37_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="38_nom" value="Pomme foudroyante"/></td>
+			<td><input style="width: 60px;" type="text" name="38_prix" value="2.50"/></td>
+			<td><input type="radio" name="38_disponible" value="1" id="d_38_1" checked="checked" /></td>
+			<td><input type="radio" name="38_disponible" value="0" id="d_38_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="38_stock" value="-34"/></td>
+			<td><input type="checkbox" name="38_suppr" value="1" /></td>
+			<td><input type="radio" name="38_bouton" value="1" id="b_38_1" /></td>
+			<td><input type="radio" name="38_bouton" value="0" id="b_38_0" checked="checked" /></td>
+			<td><input type="radio" name="38_soiree" value="1" id="s_38_1" /></td>	
+			<td><input type="radio" name="38_soiree" value="0" id="s_38_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="39_nom" value="Kwak"/></td>
+			<td><input style="width: 60px;" type="text" name="39_prix" value="2.50"/></td>
+			<td><input type="radio" name="39_disponible" value="1" id="d_39_1" checked="checked" /></td>
+			<td><input type="radio" name="39_disponible" value="0" id="d_39_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="39_stock" value="-43"/></td>
+			<td><input type="checkbox" name="39_suppr" value="1" /></td>
+			<td><input type="radio" name="39_bouton" value="1" id="b_39_1" /></td>
+			<td><input type="radio" name="39_bouton" value="0" id="b_39_0" checked="checked" /></td>
+			<td><input type="radio" name="39_soiree" value="1" id="s_39_1" /></td>	
+			<td><input type="radio" name="39_soiree" value="0" id="s_39_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="40_nom" value="Brigand"/></td>
+			<td><input style="width: 60px;" type="text" name="40_prix" value="2.50"/></td>
+			<td><input type="radio" name="40_disponible" value="1" id="d_40_1" /></td>
+			<td><input type="radio" name="40_disponible" value="0" id="d_40_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="40_stock" value="-29"/></td>
+			<td><input type="checkbox" name="40_suppr" value="1" /></td>
+			<td><input type="radio" name="40_bouton" value="1" id="b_40_1" /></td>
+			<td><input type="radio" name="40_bouton" value="0" id="b_40_0" checked="checked" /></td>
+			<td><input type="radio" name="40_soiree" value="1" id="s_40_1" /></td>	
+			<td><input type="radio" name="40_soiree" value="0" id="s_40_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="41_nom" value="Bernardus"/></td>
+			<td><input style="width: 60px;" type="text" name="41_prix" value="3.00"/></td>
+			<td><input type="radio" name="41_disponible" value="1" id="d_41_1" /></td>
+			<td><input type="radio" name="41_disponible" value="0" id="d_41_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="41_stock" value="10"/></td>
+			<td><input type="checkbox" name="41_suppr" value="1" /></td>
+			<td><input type="radio" name="41_bouton" value="1" id="b_41_1" /></td>
+			<td><input type="radio" name="41_bouton" value="0" id="b_41_0" checked="checked" /></td>
+			<td><input type="radio" name="41_soiree" value="1" id="s_41_1" /></td>	
+			<td><input type="radio" name="41_soiree" value="0" id="s_41_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="42_nom" value="Smirnoff"/></td>
+			<td><input style="width: 60px;" type="text" name="42_prix" value="1.70"/></td>
+			<td><input type="radio" name="42_disponible" value="1" id="d_42_1" checked="checked" /></td>
+			<td><input type="radio" name="42_disponible" value="0" id="d_42_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="42_stock" value="-152"/></td>
+			<td><input type="checkbox" name="42_suppr" value="1" /></td>
+			<td><input type="radio" name="42_bouton" value="1" id="b_42_1" /></td>
+			<td><input type="radio" name="42_bouton" value="0" id="b_42_0" checked="checked" /></td>
+			<td><input type="radio" name="42_soiree" value="1" id="s_42_1" /></td>	
+			<td><input type="radio" name="42_soiree" value="0" id="s_42_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="44_nom" value="Kirin"/></td>
+			<td><input style="width: 60px;" type="text" name="44_prix" value="2.00"/></td>
+			<td><input type="radio" name="44_disponible" value="1" id="d_44_1" /></td>
+			<td><input type="radio" name="44_disponible" value="0" id="d_44_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="44_stock" value="10"/></td>
+			<td><input type="checkbox" name="44_suppr" value="1" /></td>
+			<td><input type="radio" name="44_bouton" value="1" id="b_44_1" /></td>
+			<td><input type="radio" name="44_bouton" value="0" id="b_44_0" checked="checked" /></td>
+			<td><input type="radio" name="44_soiree" value="1" id="s_44_1" /></td>	
+			<td><input type="radio" name="44_soiree" value="0" id="s_44_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="45_nom" value="Mort Subite"/></td>
+			<td><input style="width: 60px;" type="text" name="45_prix" value="3.00"/></td>
+			<td><input type="radio" name="45_disponible" value="1" id="d_45_1" checked="checked" /></td>
+			<td><input type="radio" name="45_disponible" value="0" id="d_45_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="45_stock" value="-48"/></td>
+			<td><input type="checkbox" name="45_suppr" value="1" /></td>
+			<td><input type="radio" name="45_bouton" value="1" id="b_45_1" /></td>
+			<td><input type="radio" name="45_bouton" value="0" id="b_45_0" checked="checked" /></td>
+			<td><input type="radio" name="45_soiree" value="1" id="s_45_1" /></td>	
+			<td><input type="radio" name="45_soiree" value="0" id="s_45_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="46_nom" value="Pecheresse"/></td>
+			<td><input style="width: 60px;" type="text" name="46_prix" value="5.00"/></td>
+			<td><input type="radio" name="46_disponible" value="1" id="d_46_1" checked="checked" /></td>
+			<td><input type="radio" name="46_disponible" value="0" id="d_46_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="46_stock" value="-25"/></td>
+			<td><input type="checkbox" name="46_suppr" value="1" /></td>
+			<td><input type="radio" name="46_bouton" value="1" id="b_46_1" /></td>
+			<td><input type="radio" name="46_bouton" value="0" id="b_46_0" checked="checked" /></td>
+			<td><input type="radio" name="46_soiree" value="1" id="s_46_1" /></td>	
+			<td><input type="radio" name="46_soiree" value="0" id="s_46_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="55_nom" value="Leffe 9 (bleu)"/></td>
+			<td><input style="width: 60px;" type="text" name="55_prix" value="1.30"/></td>
+			<td><input type="radio" name="55_disponible" value="1" id="d_55_1" /></td>
+			<td><input type="radio" name="55_disponible" value="0" id="d_55_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="55_stock" value="-273"/></td>
+			<td><input type="checkbox" name="55_suppr" value="1" /></td>
+			<td><input type="radio" name="55_bouton" value="1" id="b_55_1" /></td>
+			<td><input type="radio" name="55_bouton" value="0" id="b_55_0" checked="checked" /></td>
+			<td><input type="radio" name="55_soiree" value="1" id="s_55_1" /></td>	
+			<td><input type="radio" name="55_soiree" value="0" id="s_55_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="56_nom" value="Affligem"/></td>
+			<td><input style="width: 60px;" type="text" name="56_prix" value="1.50"/></td>
+			<td><input type="radio" name="56_disponible" value="1" id="d_56_1" /></td>
+			<td><input type="radio" name="56_disponible" value="0" id="d_56_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="56_stock" value="10"/></td>
+			<td><input type="checkbox" name="56_suppr" value="1" /></td>
+			<td><input type="radio" name="56_bouton" value="1" id="b_56_1" /></td>
+			<td><input type="radio" name="56_bouton" value="0" id="b_56_0" checked="checked" /></td>
+			<td><input type="radio" name="56_soiree" value="1" id="s_56_1" /></td>	
+			<td><input type="radio" name="56_soiree" value="0" id="s_56_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="57_nom" value="Jenlain ambree"/></td>
+			<td><input style="width: 60px;" type="text" name="57_prix" value="1.50"/></td>
+			<td><input type="radio" name="57_disponible" value="1" id="d_57_1" /></td>
+			<td><input type="radio" name="57_disponible" value="0" id="d_57_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="57_stock" value="10"/></td>
+			<td><input type="checkbox" name="57_suppr" value="1" /></td>
+			<td><input type="radio" name="57_bouton" value="1" id="b_57_1" /></td>
+			<td><input type="radio" name="57_bouton" value="0" id="b_57_0" checked="checked" /></td>
+			<td><input type="radio" name="57_soiree" value="1" id="s_57_1" /></td>	
+			<td><input type="radio" name="57_soiree" value="0" id="s_57_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="58_nom" value="Pelforth brune (25cl)"/></td>
+			<td><input style="width: 60px;" type="text" name="58_prix" value="2.00"/></td>
+			<td><input type="radio" name="58_disponible" value="1" id="d_58_1" checked="checked" /></td>
+			<td><input type="radio" name="58_disponible" value="0" id="d_58_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="58_stock" value="-2"/></td>
+			<td><input type="checkbox" name="58_suppr" value="1" /></td>
+			<td><input type="radio" name="58_bouton" value="1" id="b_58_1" /></td>
+			<td><input type="radio" name="58_bouton" value="0" id="b_58_0" checked="checked" /></td>
+			<td><input type="radio" name="58_soiree" value="1" id="s_58_1" /></td>	
+			<td><input type="radio" name="58_soiree" value="0" id="s_58_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="59_nom" value="Fischer"/></td>
+			<td><input style="width: 60px;" type="text" name="59_prix" value="3.50"/></td>
+			<td><input type="radio" name="59_disponible" value="1" id="d_59_1" /></td>
+			<td><input type="radio" name="59_disponible" value="0" id="d_59_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="59_stock" value="10"/></td>
+			<td><input type="checkbox" name="59_suppr" value="1" /></td>
+			<td><input type="radio" name="59_bouton" value="1" id="b_59_1" /></td>
+			<td><input type="radio" name="59_bouton" value="0" id="b_59_0" checked="checked" /></td>
+			<td><input type="radio" name="59_soiree" value="1" id="s_59_1" /></td>	
+			<td><input type="radio" name="59_soiree" value="0" id="s_59_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="60_nom" value="Chti"/></td>
+			<td><input style="width: 60px;" type="text" name="60_prix" value="1.50"/></td>
+			<td><input type="radio" name="60_disponible" value="1" id="d_60_1" checked="checked" /></td>
+			<td><input type="radio" name="60_disponible" value="0" id="d_60_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="60_stock" value="-48"/></td>
+			<td><input type="checkbox" name="60_suppr" value="1" /></td>
+			<td><input type="radio" name="60_bouton" value="1" id="b_60_1" /></td>
+			<td><input type="radio" name="60_bouton" value="0" id="b_60_0" checked="checked" /></td>
+			<td><input type="radio" name="60_soiree" value="1" id="s_60_1" /></td>	
+			<td><input type="radio" name="60_soiree" value="0" id="s_60_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="69_nom" value="Goudale"/></td>
+			<td><input style="width: 60px;" type="text" name="69_prix" value="1.50"/></td>
+			<td><input type="radio" name="69_disponible" value="1" id="d_69_1" /></td>
+			<td><input type="radio" name="69_disponible" value="0" id="d_69_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="69_stock" value="10"/></td>
+			<td><input type="checkbox" name="69_suppr" value="1" /></td>
+			<td><input type="radio" name="69_bouton" value="1" id="b_69_1" /></td>
+			<td><input type="radio" name="69_bouton" value="0" id="b_69_0" checked="checked" /></td>
+			<td><input type="radio" name="69_soiree" value="1" id="s_69_1" /></td>	
+			<td><input type="radio" name="69_soiree" value="0" id="s_69_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="71_nom" value="Freixenet (bouteille)"/></td>
+			<td><input style="width: 60px;" type="text" name="71_prix" value="10.00"/></td>
+			<td><input type="radio" name="71_disponible" value="1" id="d_71_1" /></td>
+			<td><input type="radio" name="71_disponible" value="0" id="d_71_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="71_stock" value="10"/></td>
+			<td><input type="checkbox" name="71_suppr" value="1" /></td>
+			<td><input type="radio" name="71_bouton" value="1" id="b_71_1" /></td>
+			<td><input type="radio" name="71_bouton" value="0" id="b_71_0" checked="checked" /></td>
+			<td><input type="radio" name="71_soiree" value="1" id="s_71_1" /></td>	
+			<td><input type="radio" name="71_soiree" value="0" id="s_71_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="74_nom" value="Corona"/></td>
+			<td><input style="width: 60px;" type="text" name="74_prix" value="2.00"/></td>
+			<td><input type="radio" name="74_disponible" value="1" id="d_74_1" checked="checked" /></td>
+			<td><input type="radio" name="74_disponible" value="0" id="d_74_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="74_stock" value="-96"/></td>
+			<td><input type="checkbox" name="74_suppr" value="1" /></td>
+			<td><input type="radio" name="74_bouton" value="1" id="b_74_1" /></td>
+			<td><input type="radio" name="74_bouton" value="0" id="b_74_0" checked="checked" /></td>
+			<td><input type="radio" name="74_soiree" value="1" id="s_74_1" /></td>	
+			<td><input type="radio" name="74_soiree" value="0" id="s_74_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="76_nom" value="Hoegaarden"/></td>
+			<td><input style="width: 60px;" type="text" name="76_prix" value="1.30"/></td>
+			<td><input type="radio" name="76_disponible" value="1" id="d_76_1" /></td>
+			<td><input type="radio" name="76_disponible" value="0" id="d_76_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="76_stock" value="-155"/></td>
+			<td><input type="checkbox" name="76_suppr" value="1" /></td>
+			<td><input type="radio" name="76_bouton" value="1" id="b_76_1" /></td>
+			<td><input type="radio" name="76_bouton" value="0" id="b_76_0" checked="checked" /></td>
+			<td><input type="radio" name="76_soiree" value="1" id="s_76_1" /></td>	
+			<td><input type="radio" name="76_soiree" value="0" id="s_76_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="77_nom" value="Grim bouteille (25cl)"/></td>
+			<td><input style="width: 60px;" type="text" name="77_prix" value="1.30"/></td>
+			<td><input type="radio" name="77_disponible" value="1" id="d_77_1" checked="checked" /></td>
+			<td><input type="radio" name="77_disponible" value="0" id="d_77_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="77_stock" value="-17"/></td>
+			<td><input type="checkbox" name="77_suppr" value="1" /></td>
+			<td><input type="radio" name="77_bouton" value="1" id="b_77_1" /></td>
+			<td><input type="radio" name="77_bouton" value="0" id="b_77_0" checked="checked" /></td>
+			<td><input type="radio" name="77_soiree" value="1" id="s_77_1" /></td>	
+			<td><input type="radio" name="77_soiree" value="0" id="s_77_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="78_nom" value="George Killian"/></td>
+			<td><input style="width: 60px;" type="text" name="78_prix" value="1.50"/></td>
+			<td><input type="radio" name="78_disponible" value="1" id="d_78_1" /></td>
+			<td><input type="radio" name="78_disponible" value="0" id="d_78_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="78_stock" value="10"/></td>
+			<td><input type="checkbox" name="78_suppr" value="1" /></td>
+			<td><input type="radio" name="78_bouton" value="1" id="b_78_1" /></td>
+			<td><input type="radio" name="78_bouton" value="0" id="b_78_0" checked="checked" /></td>
+			<td><input type="radio" name="78_soiree" value="1" id="s_78_1" /></td>	
+			<td><input type="radio" name="78_soiree" value="0" id="s_78_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="80_nom" value="Delirium"/></td>
+			<td><input style="width: 60px;" type="text" name="80_prix" value="3.00"/></td>
+			<td><input type="radio" name="80_disponible" value="1" id="d_80_1" /></td>
+			<td><input type="radio" name="80_disponible" value="0" id="d_80_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="80_stock" value="-64"/></td>
+			<td><input type="checkbox" name="80_suppr" value="1" /></td>
+			<td><input type="radio" name="80_bouton" value="1" id="b_80_1" /></td>
+			<td><input type="radio" name="80_bouton" value="0" id="b_80_0" checked="checked" /></td>
+			<td><input type="radio" name="80_soiree" value="1" id="s_80_1" /></td>	
+			<td><input type="radio" name="80_soiree" value="0" id="s_80_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="83_nom" value="Hot Dog"/></td>
+			<td><input style="width: 60px;" type="text" name="83_prix" value="1.00"/></td>
+			<td><input type="radio" name="83_disponible" value="1" id="d_83_1" /></td>
+			<td><input type="radio" name="83_disponible" value="0" id="d_83_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="83_stock" value="-35"/></td>
+			<td><input type="checkbox" name="83_suppr" value="1" /></td>
+			<td><input type="radio" name="83_bouton" value="1" id="b_83_1" /></td>
+			<td><input type="radio" name="83_bouton" value="0" id="b_83_0" checked="checked" /></td>
+			<td><input type="radio" name="83_soiree" value="1" id="s_83_1" /></td>	
+			<td><input type="radio" name="83_soiree" value="0" id="s_83_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="85_nom" value="Guiness cannette"/></td>
+			<td><input style="width: 60px;" type="text" name="85_prix" value="3.00"/></td>
+			<td><input type="radio" name="85_disponible" value="1" id="d_85_1" checked="checked" /></td>
+			<td><input type="radio" name="85_disponible" value="0" id="d_85_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="85_stock" value="-149"/></td>
+			<td><input type="checkbox" name="85_suppr" value="1" /></td>
+			<td><input type="radio" name="85_bouton" value="1" id="b_85_1" checked="checked" /></td>
+			<td><input type="radio" name="85_bouton" value="0" id="b_85_0" /></td>
+			<td><input type="radio" name="85_soiree" value="1" id="s_85_1" /></td>	
+			<td><input type="radio" name="85_soiree" value="0" id="s_85_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="87_nom" value="Despe (33cl)"/></td>
+			<td><input style="width: 60px;" type="text" name="87_prix" value="1.70"/></td>
+			<td><input type="radio" name="87_disponible" value="1" id="d_87_1" checked="checked" /></td>
+			<td><input type="radio" name="87_disponible" value="0" id="d_87_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="87_stock" value="-194"/></td>
+			<td><input type="checkbox" name="87_suppr" value="1" /></td>
+			<td><input type="radio" name="87_bouton" value="1" id="b_87_1" /></td>
+			<td><input type="radio" name="87_bouton" value="0" id="b_87_0" checked="checked" /></td>
+			<td><input type="radio" name="87_soiree" value="1" id="s_87_1" /></td>	
+			<td><input type="radio" name="87_soiree" value="0" id="s_87_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="88_nom" value="Karmeleit"/></td>
+			<td><input style="width: 60px;" type="text" name="88_prix" value="3.00"/></td>
+			<td><input type="radio" name="88_disponible" value="1" id="d_88_1" /></td>
+			<td><input type="radio" name="88_disponible" value="0" id="d_88_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="88_stock" value="10"/></td>
+			<td><input type="checkbox" name="88_suppr" value="1" /></td>
+			<td><input type="radio" name="88_bouton" value="1" id="b_88_1" /></td>
+			<td><input type="radio" name="88_bouton" value="0" id="b_88_0" checked="checked" /></td>
+			<td><input type="radio" name="88_soiree" value="1" id="s_88_1" /></td>	
+			<td><input type="radio" name="88_soiree" value="0" id="s_88_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="89_nom" value="Adelscott"/></td>
+			<td><input style="width: 60px;" type="text" name="89_prix" value="1.50"/></td>
+			<td><input type="radio" name="89_disponible" value="1" id="d_89_1" /></td>
+			<td><input type="radio" name="89_disponible" value="0" id="d_89_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="89_stock" value="10"/></td>
+			<td><input type="checkbox" name="89_suppr" value="1" /></td>
+			<td><input type="radio" name="89_bouton" value="1" id="b_89_1" /></td>
+			<td><input type="radio" name="89_bouton" value="0" id="b_89_0" checked="checked" /></td>
+			<td><input type="radio" name="89_soiree" value="1" id="s_89_1" /></td>	
+			<td><input type="radio" name="89_soiree" value="0" id="s_89_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="90_nom" value="Faro Lindsmans"/></td>
+			<td><input style="width: 60px;" type="text" name="90_prix" value="3.00"/></td>
+			<td><input type="radio" name="90_disponible" value="1" id="d_90_1" checked="checked" /></td>
+			<td><input type="radio" name="90_disponible" value="0" id="d_90_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="90_stock" value="-46"/></td>
+			<td><input type="checkbox" name="90_suppr" value="1" /></td>
+			<td><input type="radio" name="90_bouton" value="1" id="b_90_1" /></td>
+			<td><input type="radio" name="90_bouton" value="0" id="b_90_0" checked="checked" /></td>
+			<td><input type="radio" name="90_soiree" value="1" id="s_90_1" /></td>	
+			<td><input type="radio" name="90_soiree" value="0" id="s_90_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="91_nom" value="Framboise foudroyante"/></td>
+			<td><input style="width: 60px;" type="text" name="91_prix" value="4.00"/></td>
+			<td><input type="radio" name="91_disponible" value="1" id="d_91_1" checked="checked" /></td>
+			<td><input type="radio" name="91_disponible" value="0" id="d_91_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="91_stock" value="-24"/></td>
+			<td><input type="checkbox" name="91_suppr" value="1" /></td>
+			<td><input type="radio" name="91_bouton" value="1" id="b_91_1" /></td>
+			<td><input type="radio" name="91_bouton" value="0" id="b_91_0" checked="checked" /></td>
+			<td><input type="radio" name="91_soiree" value="1" id="s_91_1" /></td>	
+			<td><input type="radio" name="91_soiree" value="0" id="s_91_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="100_nom" value="Dark Dog"/></td>
+			<td><input style="width: 60px;" type="text" name="100_prix" value="2.00"/></td>
+			<td><input type="radio" name="100_disponible" value="1" id="d_100_1" /></td>
+			<td><input type="radio" name="100_disponible" value="0" id="d_100_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="100_stock" value="10"/></td>
+			<td><input type="checkbox" name="100_suppr" value="1" /></td>
+			<td><input type="radio" name="100_bouton" value="1" id="b_100_1" /></td>
+			<td><input type="radio" name="100_bouton" value="0" id="b_100_0" checked="checked" /></td>
+			<td><input type="radio" name="100_soiree" value="1" id="s_100_1" /></td>	
+			<td><input type="radio" name="100_soiree" value="0" id="s_100_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="101_nom" value="Valderance"/></td>
+			<td><input style="width: 60px;" type="text" name="101_prix" value="1.50"/></td>
+			<td><input type="radio" name="101_disponible" value="1" id="d_101_1" checked="checked" /></td>
+			<td><input type="radio" name="101_disponible" value="0" id="d_101_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="101_stock" value="-50"/></td>
+			<td><input type="checkbox" name="101_suppr" value="1" /></td>
+			<td><input type="radio" name="101_bouton" value="1" id="b_101_1" /></td>
+			<td><input type="radio" name="101_bouton" value="0" id="b_101_0" checked="checked" /></td>
+			<td><input type="radio" name="101_soiree" value="1" id="s_101_1" /></td>	
+			<td><input type="radio" name="101_soiree" value="0" id="s_101_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="102_nom" value="Carolus"/></td>
+			<td><input style="width: 60px;" type="text" name="102_prix" value="2.50"/></td>
+			<td><input type="radio" name="102_disponible" value="1" id="d_102_1" checked="checked" /></td>
+			<td><input type="radio" name="102_disponible" value="0" id="d_102_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="102_stock" value="-108"/></td>
+			<td><input type="checkbox" name="102_suppr" value="1" /></td>
+			<td><input type="radio" name="102_bouton" value="1" id="b_102_1" /></td>
+			<td><input type="radio" name="102_bouton" value="0" id="b_102_0" checked="checked" /></td>
+			<td><input type="radio" name="102_soiree" value="1" id="s_102_1" /></td>	
+			<td><input type="radio" name="102_soiree" value="0" id="s_102_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="103_nom" value="Croque Monsieur Nutella"/></td>
+			<td><input style="width: 60px;" type="text" name="103_prix" value="0.50"/></td>
+			<td><input type="radio" name="103_disponible" value="1" id="d_103_1" /></td>
+			<td><input type="radio" name="103_disponible" value="0" id="d_103_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="103_stock" value="10"/></td>
+			<td><input type="checkbox" name="103_suppr" value="1" /></td>
+			<td><input type="radio" name="103_bouton" value="1" id="b_103_1" /></td>
+			<td><input type="radio" name="103_bouton" value="0" id="b_103_0" checked="checked" /></td>
+			<td><input type="radio" name="103_soiree" value="1" id="s_103_1" /></td>	
+			<td><input type="radio" name="103_soiree" value="0" id="s_103_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="118_nom" value="Panini Jambon"/></td>
+			<td><input style="width: 60px;" type="text" name="118_prix" value="2.00"/></td>
+			<td><input type="radio" name="118_disponible" value="1" id="d_118_1" /></td>
+			<td><input type="radio" name="118_disponible" value="0" id="d_118_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="118_stock" value="-204"/></td>
+			<td><input type="checkbox" name="118_suppr" value="1" /></td>
+			<td><input type="radio" name="118_bouton" value="1" id="b_118_1" /></td>
+			<td><input type="radio" name="118_bouton" value="0" id="b_118_0" checked="checked" /></td>
+			<td><input type="radio" name="118_soiree" value="1" id="s_118_1" checked="checked" /></td>	
+			<td><input type="radio" name="118_soiree" value="0" id="s_118_0" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="119_nom" value="Panini Emince Poulet"/></td>
+			<td><input style="width: 60px;" type="text" name="119_prix" value="2.50"/></td>
+			<td><input type="radio" name="119_disponible" value="1" id="d_119_1" checked="checked" /></td>
+			<td><input type="radio" name="119_disponible" value="0" id="d_119_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="119_stock" value="-399"/></td>
+			<td><input type="checkbox" name="119_suppr" value="1" /></td>
+			<td><input type="radio" name="119_bouton" value="1" id="b_119_1" /></td>
+			<td><input type="radio" name="119_bouton" value="0" id="b_119_0" checked="checked" /></td>
+			<td><input type="radio" name="119_soiree" value="1" id="s_119_1" checked="checked" /></td>	
+			<td><input type="radio" name="119_soiree" value="0" id="s_119_0" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="120_nom" value="Donut"/></td>
+			<td><input style="width: 60px;" type="text" name="120_prix" value="0.80"/></td>
+			<td><input type="radio" name="120_disponible" value="1" id="d_120_1" /></td>
+			<td><input type="radio" name="120_disponible" value="0" id="d_120_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="120_stock" value="10"/></td>
+			<td><input type="checkbox" name="120_suppr" value="1" /></td>
+			<td><input type="radio" name="120_bouton" value="1" id="b_120_1" /></td>
+			<td><input type="radio" name="120_bouton" value="0" id="b_120_0" checked="checked" /></td>
+			<td><input type="radio" name="120_soiree" value="1" id="s_120_1" /></td>	
+			<td><input type="radio" name="120_soiree" value="0" id="s_120_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="133_nom" value="Lancelot"/></td>
+			<td><input style="width: 60px;" type="text" name="133_prix" value="2.00"/></td>
+			<td><input type="radio" name="133_disponible" value="1" id="d_133_1" /></td>
+			<td><input type="radio" name="133_disponible" value="0" id="d_133_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="133_stock" value="10"/></td>
+			<td><input type="checkbox" name="133_suppr" value="1" /></td>
+			<td><input type="radio" name="133_bouton" value="1" id="b_133_1" /></td>
+			<td><input type="radio" name="133_bouton" value="0" id="b_133_0" checked="checked" /></td>
+			<td><input type="radio" name="133_soiree" value="1" id="s_133_1" /></td>	
+			<td><input type="radio" name="133_soiree" value="0" id="s_133_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="134_nom" value="1664 (25cl)"/></td>
+			<td><input style="width: 60px;" type="text" name="134_prix" value="1.50"/></td>
+			<td><input type="radio" name="134_disponible" value="1" id="d_134_1" /></td>
+			<td><input type="radio" name="134_disponible" value="0" id="d_134_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="134_stock" value="10"/></td>
+			<td><input type="checkbox" name="134_suppr" value="1" /></td>
+			<td><input type="radio" name="134_bouton" value="1" id="b_134_1" /></td>
+			<td><input type="radio" name="134_bouton" value="0" id="b_134_0" checked="checked" /></td>
+			<td><input type="radio" name="134_soiree" value="1" id="s_134_1" /></td>	
+			<td><input type="radio" name="134_soiree" value="0" id="s_134_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="135_nom" value="Orval"/></td>
+			<td><input style="width: 60px;" type="text" name="135_prix" value="2.50"/></td>
+			<td><input type="radio" name="135_disponible" value="1" id="d_135_1" checked="checked" /></td>
+			<td><input type="radio" name="135_disponible" value="0" id="d_135_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="135_stock" value="-13"/></td>
+			<td><input type="checkbox" name="135_suppr" value="1" /></td>
+			<td><input type="radio" name="135_bouton" value="1" id="b_135_1" /></td>
+			<td><input type="radio" name="135_bouton" value="0" id="b_135_0" checked="checked" /></td>
+			<td><input type="radio" name="135_soiree" value="1" id="s_135_1" /></td>	
+			<td><input type="radio" name="135_soiree" value="0" id="s_135_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="136_nom" value="Demi de Grim"/></td>
+			<td><input style="width: 60px;" type="text" name="136_prix" value="1.70"/></td>
+			<td><input type="radio" name="136_disponible" value="1" id="d_136_1" checked="checked" /></td>
+			<td><input type="radio" name="136_disponible" value="0" id="d_136_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="136_stock" value="-249"/></td>
+			<td><input type="checkbox" name="136_suppr" value="1" /></td>
+			<td><input type="radio" name="136_bouton" value="1" id="b_136_1" checked="checked" /></td>
+			<td><input type="radio" name="136_bouton" value="0" id="b_136_0" /></td>
+			<td><input type="radio" name="136_soiree" value="1" id="s_136_1" /></td>	
+			<td><input type="radio" name="136_soiree" value="0" id="s_136_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="137_nom" value="Pinte de Grim"/></td>
+			<td><input style="width: 60px;" type="text" name="137_prix" value="3.00"/></td>
+			<td><input type="radio" name="137_disponible" value="1" id="d_137_1" checked="checked" /></td>
+			<td><input type="radio" name="137_disponible" value="0" id="d_137_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="137_stock" value="-537"/></td>
+			<td><input type="checkbox" name="137_suppr" value="1" /></td>
+			<td><input type="radio" name="137_bouton" value="1" id="b_137_1" checked="checked" /></td>
+			<td><input type="radio" name="137_bouton" value="0" id="b_137_0" /></td>
+			<td><input type="radio" name="137_soiree" value="1" id="s_137_1" /></td>	
+			<td><input type="radio" name="137_soiree" value="0" id="s_137_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="157_nom" value="Leffe (33cl)"/></td>
+			<td><input style="width: 60px;" type="text" name="157_prix" value="1.30"/></td>
+			<td><input type="radio" name="157_disponible" value="1" id="d_157_1" /></td>
+			<td><input type="radio" name="157_disponible" value="0" id="d_157_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="157_stock" value="-54"/></td>
+			<td><input type="checkbox" name="157_suppr" value="1" /></td>
+			<td><input type="radio" name="157_bouton" value="1" id="b_157_1" /></td>
+			<td><input type="radio" name="157_bouton" value="0" id="b_157_0" checked="checked" /></td>
+			<td><input type="radio" name="157_soiree" value="1" id="s_157_1" /></td>	
+			<td><input type="radio" name="157_soiree" value="0" id="s_157_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="160_nom" value="Duff"/></td>
+			<td><input style="width: 60px;" type="text" name="160_prix" value="2.30"/></td>
+			<td><input type="radio" name="160_disponible" value="1" id="d_160_1" /></td>
+			<td><input type="radio" name="160_disponible" value="0" id="d_160_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="160_stock" value="-35"/></td>
+			<td><input type="checkbox" name="160_suppr" value="1" /></td>
+			<td><input type="radio" name="160_bouton" value="1" id="b_160_1" /></td>
+			<td><input type="radio" name="160_bouton" value="0" id="b_160_0" checked="checked" /></td>
+			<td><input type="radio" name="160_soiree" value="1" id="s_160_1" /></td>	
+			<td><input type="radio" name="160_soiree" value="0" id="s_160_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="161_nom" value="Kro bouteille"/></td>
+			<td><input style="width: 60px;" type="text" name="161_prix" value="0.70"/></td>
+			<td><input type="radio" name="161_disponible" value="1" id="d_161_1" /></td>
+			<td><input type="radio" name="161_disponible" value="0" id="d_161_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="161_stock" value="-55"/></td>
+			<td><input type="checkbox" name="161_suppr" value="1" /></td>
+			<td><input type="radio" name="161_bouton" value="1" id="b_161_1" /></td>
+			<td><input type="radio" name="161_bouton" value="0" id="b_161_0" checked="checked" /></td>
+			<td><input type="radio" name="161_soiree" value="1" id="s_161_1" /></td>	
+			<td><input type="radio" name="161_soiree" value="0" id="s_161_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="162_nom" value="Grain dorge"/></td>
+			<td><input style="width: 60px;" type="text" name="162_prix" value="2.00"/></td>
+			<td><input type="radio" name="162_disponible" value="1" id="d_162_1" checked="checked" /></td>
+			<td><input type="radio" name="162_disponible" value="0" id="d_162_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="162_stock" value="0"/></td>
+			<td><input type="checkbox" name="162_suppr" value="1" /></td>
+			<td><input type="radio" name="162_bouton" value="1" id="b_162_1" /></td>
+			<td><input type="radio" name="162_bouton" value="0" id="b_162_0" checked="checked" /></td>
+			<td><input type="radio" name="162_soiree" value="1" id="s_162_1" /></td>	
+			<td><input type="radio" name="162_soiree" value="0" id="s_162_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="165_nom" value="Panini nutella"/></td>
+			<td><input style="width: 60px;" type="text" name="165_prix" value="1.00"/></td>
+			<td><input type="radio" name="165_disponible" value="1" id="d_165_1" checked="checked" /></td>
+			<td><input type="radio" name="165_disponible" value="0" id="d_165_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="165_stock" value="-239"/></td>
+			<td><input type="checkbox" name="165_suppr" value="1" /></td>
+			<td><input type="radio" name="165_bouton" value="1" id="b_165_1" /></td>
+			<td><input type="radio" name="165_bouton" value="0" id="b_165_0" checked="checked" /></td>
+			<td><input type="radio" name="165_soiree" value="1" id="s_165_1" checked="checked" /></td>	
+			<td><input type="radio" name="165_soiree" value="0" id="s_165_0" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="188_nom" value="Despe Red"/></td>
+			<td><input style="width: 60px;" type="text" name="188_prix" value="2.00"/></td>
+			<td><input type="radio" name="188_disponible" value="1" id="d_188_1" checked="checked" /></td>
+			<td><input type="radio" name="188_disponible" value="0" id="d_188_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="188_stock" value="-33"/></td>
+			<td><input type="checkbox" name="188_suppr" value="1" /></td>
+			<td><input type="radio" name="188_bouton" value="1" id="b_188_1" /></td>
+			<td><input type="radio" name="188_bouton" value="0" id="b_188_0" checked="checked" /></td>
+			<td><input type="radio" name="188_soiree" value="1" id="s_188_1" /></td>	
+			<td><input type="radio" name="188_soiree" value="0" id="s_188_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="189_nom" value="Long Drink"/></td>
+			<td><input style="width: 60px;" type="text" name="189_prix" value="2.00"/></td>
+			<td><input type="radio" name="189_disponible" value="1" id="d_189_1" checked="checked" /></td>
+			<td><input type="radio" name="189_disponible" value="0" id="d_189_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="189_stock" value="-53"/></td>
+			<td><input type="checkbox" name="189_suppr" value="1" /></td>
+			<td><input type="radio" name="189_bouton" value="1" id="b_189_1" /></td>
+			<td><input type="radio" name="189_bouton" value="0" id="b_189_0" checked="checked" /></td>
+			<td><input type="radio" name="189_soiree" value="1" id="s_189_1" /></td>	
+			<td><input type="radio" name="189_soiree" value="0" id="s_189_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="190_nom" value="Shot"/></td>
+			<td><input style="width: 60px;" type="text" name="190_prix" value="1.50"/></td>
+			<td><input type="radio" name="190_disponible" value="1" id="d_190_1" checked="checked" /></td>
+			<td><input type="radio" name="190_disponible" value="0" id="d_190_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="190_stock" value="-14"/></td>
+			<td><input type="checkbox" name="190_suppr" value="1" /></td>
+			<td><input type="radio" name="190_bouton" value="1" id="b_190_1" /></td>
+			<td><input type="radio" name="190_bouton" value="0" id="b_190_0" checked="checked" /></td>
+			<td><input type="radio" name="190_soiree" value="1" id="s_190_1" /></td>	
+			<td><input type="radio" name="190_soiree" value="0" id="s_190_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="191_nom" value="4 Shots (4 euros)"/></td>
+			<td><input style="width: 60px;" type="text" name="191_prix" value="4.00"/></td>
+			<td><input type="radio" name="191_disponible" value="1" id="d_191_1" checked="checked" /></td>
+			<td><input type="radio" name="191_disponible" value="0" id="d_191_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="191_stock" value="-18"/></td>
+			<td><input type="checkbox" name="191_suppr" value="1" /></td>
+			<td><input type="radio" name="191_bouton" value="1" id="b_191_1" /></td>
+			<td><input type="radio" name="191_bouton" value="0" id="b_191_0" checked="checked" /></td>
+			<td><input type="radio" name="191_soiree" value="1" id="s_191_1" /></td>	
+			<td><input type="radio" name="191_soiree" value="0" id="s_191_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="192_nom" value="Kasteel"/></td>
+			<td><input style="width: 60px;" type="text" name="192_prix" value="2.50"/></td>
+			<td><input type="radio" name="192_disponible" value="1" id="d_192_1" /></td>
+			<td><input type="radio" name="192_disponible" value="0" id="d_192_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="192_stock" value="-10"/></td>
+			<td><input type="checkbox" name="192_suppr" value="1" /></td>
+			<td><input type="radio" name="192_bouton" value="1" id="b_192_1" /></td>
+			<td><input type="radio" name="192_bouton" value="0" id="b_192_0" checked="checked" /></td>
+			<td><input type="radio" name="192_soiree" value="1" id="s_192_1" /></td>	
+			<td><input type="radio" name="192_soiree" value="0" id="s_192_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="194_nom" value="Mr Freeze"/></td>
+			<td><input style="width: 60px;" type="text" name="194_prix" value="0.60"/></td>
+			<td><input type="radio" name="194_disponible" value="1" id="d_194_1" checked="checked" /></td>
+			<td><input type="radio" name="194_disponible" value="0" id="d_194_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="194_stock" value="-56"/></td>
+			<td><input type="checkbox" name="194_suppr" value="1" /></td>
+			<td><input type="radio" name="194_bouton" value="1" id="b_194_1" checked="checked" /></td>
+			<td><input type="radio" name="194_bouton" value="0" id="b_194_0" /></td>
+			<td><input type="radio" name="194_soiree" value="1" id="s_194_1" /></td>	
+			<td><input type="radio" name="194_soiree" value="0" id="s_194_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="195_nom" value="Salade de riz"/></td>
+			<td><input style="width: 60px;" type="text" name="195_prix" value="2.00"/></td>
+			<td><input type="radio" name="195_disponible" value="1" id="d_195_1" checked="checked" /></td>
+			<td><input type="radio" name="195_disponible" value="0" id="d_195_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="195_stock" value="-25"/></td>
+			<td><input type="checkbox" name="195_suppr" value="1" /></td>
+			<td><input type="radio" name="195_bouton" value="1" id="b_195_1" /></td>
+			<td><input type="radio" name="195_bouton" value="0" id="b_195_0" checked="checked" /></td>
+			<td><input type="radio" name="195_soiree" value="1" id="s_195_1" /></td>	
+			<td><input type="radio" name="195_soiree" value="0" id="s_195_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="196_nom" value="Petit dej"/></td>
+			<td><input style="width: 60px;" type="text" name="196_prix" value="1.00"/></td>
+			<td><input type="radio" name="196_disponible" value="1" id="d_196_1" checked="checked" /></td>
+			<td><input type="radio" name="196_disponible" value="0" id="d_196_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="196_stock" value="-2"/></td>
+			<td><input type="checkbox" name="196_suppr" value="1" /></td>
+			<td><input type="radio" name="196_bouton" value="1" id="b_196_1" /></td>
+			<td><input type="radio" name="196_bouton" value="0" id="b_196_0" checked="checked" /></td>
+			<td><input type="radio" name="196_soiree" value="1" id="s_196_1" /></td>	
+			<td><input type="radio" name="196_soiree" value="0" id="s_196_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="197_nom" value="Croissant pain choco"/></td>
+			<td><input style="width: 60px;" type="text" name="197_prix" value="0.50"/></td>
+			<td><input type="radio" name="197_disponible" value="1" id="d_197_1" checked="checked" /></td>
+			<td><input type="radio" name="197_disponible" value="0" id="d_197_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="197_stock" value="-22"/></td>
+			<td><input type="checkbox" name="197_suppr" value="1" /></td>
+			<td><input type="radio" name="197_bouton" value="1" id="b_197_1" /></td>
+			<td><input type="radio" name="197_bouton" value="0" id="b_197_0" checked="checked" /></td>
+			<td><input type="radio" name="197_soiree" value="1" id="s_197_1" /></td>	
+			<td><input type="radio" name="197_soiree" value="0" id="s_197_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="198_nom" value="Cafe"/></td>
+			<td><input style="width: 60px;" type="text" name="198_prix" value="0.30"/></td>
+			<td><input type="radio" name="198_disponible" value="1" id="d_198_1" checked="checked" /></td>
+			<td><input type="radio" name="198_disponible" value="0" id="d_198_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="198_stock" value="6"/></td>
+			<td><input type="checkbox" name="198_suppr" value="1" /></td>
+			<td><input type="radio" name="198_bouton" value="1" id="b_198_1" /></td>
+			<td><input type="radio" name="198_bouton" value="0" id="b_198_0" checked="checked" /></td>
+			<td><input type="radio" name="198_soiree" value="1" id="s_198_1" /></td>	
+			<td><input type="radio" name="198_soiree" value="0" id="s_198_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="199_nom" value="Burger"/></td>
+			<td><input style="width: 60px;" type="text" name="199_prix" value="2.00"/></td>
+			<td><input type="radio" name="199_disponible" value="1" id="d_199_1" /></td>
+			<td><input type="radio" name="199_disponible" value="0" id="d_199_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="199_stock" value="-30"/></td>
+			<td><input type="checkbox" name="199_suppr" value="1" /></td>
+			<td><input type="radio" name="199_bouton" value="1" id="b_199_1" /></td>
+			<td><input type="radio" name="199_bouton" value="0" id="b_199_0" checked="checked" /></td>
+			<td><input type="radio" name="199_soiree" value="1" id="s_199_1" /></td>	
+			<td><input type="radio" name="199_soiree" value="0" id="s_199_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="200_nom" value="Burger Frites"/></td>
+			<td><input style="width: 60px;" type="text" name="200_prix" value="2.50"/></td>
+			<td><input type="radio" name="200_disponible" value="1" id="d_200_1" /></td>
+			<td><input type="radio" name="200_disponible" value="0" id="d_200_0" checked="checked" /></td>
+                        <td><input style="width: 60px;" type="text" name="200_stock" value="-11"/></td>
+			<td><input type="checkbox" name="200_suppr" value="1" /></td>
+			<td><input type="radio" name="200_bouton" value="1" id="b_200_1" /></td>
+			<td><input type="radio" name="200_bouton" value="0" id="b_200_0" checked="checked" /></td>
+			<td><input type="radio" name="200_soiree" value="1" id="s_200_1" /></td>	
+			<td><input type="radio" name="200_soiree" value="0" id="s_200_0" checked="checked" /></td>
+
+		</tr>
+		<tr>
+			<td><input type="text" name="201_nom" value="Barbeuc (2 sandwiches)"/></td>
+			<td><input style="width: 60px;" type="text" name="201_prix" value="1.00"/></td>
+			<td><input type="radio" name="201_disponible" value="1" id="d_201_1" checked="checked" /></td>
+			<td><input type="radio" name="201_disponible" value="0" id="d_201_0" /></td>
+                        <td><input style="width: 60px;" type="text" name="201_stock" value="10"/></td>
+			<td><input type="checkbox" name="201_suppr" value="1" /></td>
+			<td><input type="radio" name="201_bouton" value="1" id="b_201_1" /></td>
+			<td><input type="radio" name="201_bouton" value="0" id="b_201_0" checked="checked" /></td>
+			<td><input type="radio" name="201_soiree" value="1" id="s_201_1" /></td>	
+			<td><input type="radio" name="201_soiree" value="0" id="s_201_0" checked="checked" /></td>
+
+		</tr>
+	</table>
+
+	<p class="centre">
+		<input type="submit" class="milieu" value="Faire la cuisine !" />
+	</p>
+
+</form>
+</div>
